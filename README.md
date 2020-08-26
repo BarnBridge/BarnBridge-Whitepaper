@@ -41,7 +41,7 @@ You can reduce the risk of digital assets & digital asset yield sensitivity by b
 
 ## 2. Initial Product Offerings
 
-SMART $BONDS - Structured Market Adjusted Risk Tranches
+SMART $BONDS - **S**tructured **M**arket **A**djusted **R**isk **T**ranches
 
 ### 2.1 SMART Yield Bonds 
 
