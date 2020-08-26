@@ -1,6 +1,6 @@
 ![](images/BB_Logo.png)
 
-# **SMART Bonds on Ethereum** 
+# **Smart Bonds on Ethereum** 
 #### ***Cross Platform Protocol for Hedging Yield Sensitivity & Market Price Delta***
 
 ## Abstract
@@ -41,9 +41,9 @@ You can reduce the risk of digital assets & digital asset yield sensitivity by b
 
 ## 2. Initial Product Offerings
 
-SMART $BONDS - **S**tructured **M**arket **A**djusted **R**isk **T**ranches
+Smart $BONDS - **S**tructured **M**arket **A**djusted **R**isk **T**ranches
 
-### 2.1 SMART Yield Bonds 
+### 2.1 Smart Yield Bonds 
 
 Interest rate volatility risk mitigation using debt based derivatives.
 
@@ -81,7 +81,7 @@ Pooled collateral would be deposited into lending protocols or yield generating 
 
 Reference financial structuring can be found here.
 
-### 2.2 SMART Alpha Bonds 
+### 2.2 Smart Alpha Bonds 
 
 Market Price Exposure Risk Mitigation using tranched volatility derivatives.
 
@@ -171,7 +171,7 @@ The BarnBridge DAO will become the core component of the BarnBridge Platform bec
 
 An additional external audit will push the launch on the mainnet by approximately **4 weeks.**  More details in 4.2.2 on Audits & Simulations. 
 
-**SMART Yield Bonds**
+**Smart Yield Bonds**
 
 The whole DAO setup is done to solidify the path towards SMART Yield Bonds.  This is the first DeFi product of the BarnBridge Platform. The Voting DAO will be able to deploy pools that anyone can join if they want to take advantage of this core mechanic.  
 
@@ -182,7 +182,7 @@ This consists of pool contracts that the users interact with, the deployment fac
 
 An additional external audit will push the launch on the mainnet by approximately **6 weeks.** More details in 4.2.2 on Audits & Simulations. 
 
-***SMART Alpha Bonds***
+***Smart Alpha Bonds***
 
 Following the model of the Smart Yield Bonds, the DAO controls the setup and the parameters for SMART Alpha Bonds. Additionally the smart contract oracles will be critical in determining the price of the staked assets, as well as the price when the pool period starts and also when the period ends, to have a fair distribution of earnings or losses.  
 
@@ -195,7 +195,7 @@ An additional external audit will push the launch on the mainnet by approximatel
 
 Because we want to have a completely decentralized system, our whole infrastructure is based around a community driven DAO. The DAO will be the owner of the core contracts of the system and will be able to define what the contracts are able to do.
 
-The architecture is using [the Diamond Standard (EIP-2535)](https://eips.ethereum.org/EIPS/eip-2535) which allows for smart contracts to add, upgrade or remove functionality. The Ethereum smart contracts are limited to 24KB of maximum contract size, however implementing this standard allows us to bypass this limitation.
+The architecture is using the [Diamond Standard (EIP-2535)](https://eips.ethereum.org/EIPS/eip-2535) which allows for smart contracts to add, upgrade or remove functionality. The Ethereum smart contracts are limited to 24KB of maximum contract size, however implementing this standard allows us to bypass this limitation.
 
 It also allows the BarnBridge DAO to choose what functionality to be changed and how. If we promise that a specific functionality will be later disabled from the contract system, we can remove the bytecode which was specifically describing that functionality. That means that there’s no risk of that part of the contract to be re-enabled in the future. Because we can remove specific parts of the contract, we remove the bloat from our contract system, making them easily auditable by the community, while having greater flexibility. 
 
