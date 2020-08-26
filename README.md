@@ -1,6 +1,8 @@
-
+![](images/BB_logo.png)
 # **Fluctuation Derivatives Protocol** 
 #### ***Cross Platform Protocol for Hedging Yield Sensitivity & Market Price Delta***
+
+![](images/bb_icon_hi-res.png)
 
 ## Abstract
 
