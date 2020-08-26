@@ -21,7 +21,7 @@ What’s more, the efficiency of smart contracts and DAO technologies allows for
 
 All of these efficiencies are currently stemmed and built off of crypto backed loans.
 
-![](images/image5.png)
+![](images/image(6).png)
 
 As previously discussed, these efficiencies should extrapolate to mortgage debt and corporate debt moving to decentralized platforms on a longer timeline. This should also encourage more complex derivatives based on debt and yield to move to decentralized platforms.  We will be able to structure far more complex derivatives and track them far more efficiently and transparently than previously possible before the blockchain, cryptocurrency, smart contracts, and decentralized autonomous organization technology was realized.  $244 trillion in debt and yield based derivatives will continue to move to more efficient technologies over time.  The movement of yield and yield based derivatives from less efficient centralized financial systems to more efficient decentralized financial systems will be one of the largest movements of wealth in human history.  **BarnBridge exists to help facilitate this transition and make the decentralized financial system more efficient.**
 
