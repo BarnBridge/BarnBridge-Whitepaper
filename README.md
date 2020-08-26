@@ -3,8 +3,6 @@
 # **Fluctuation Derivatives Protocol** 
 #### ***Cross Platform Protocol for Hedging Yield Sensitivity & Market Price Delta***
 
-![](images/bb_icon_hi-res.png)
-
 ## Abstract
 
 BarnBridge is an idea & whitepaper who’s framework was originally built in Q2 2019.  At the time, MakerDAO was starting to garner mainstream awareness and capture the imagination of what is now known as the DeFi, or decentralized finance, community.  Over a year later, with 60% of Global debt yielding less than 1% & over $15 trillion of global debt yielding negative rates, capital continues moving into higher risk yield streams.  This is not a coincidence or a trend.  Historically speaking, going all the way back to biblical times, working capital chases yield, assuming relatively equal risk. 
@@ -197,7 +195,7 @@ An additional external audit will push the launch on the mainnet by approximatel
 
 Because we want to have a completely decentralized system, our whole infrastructure is based around a community driven DAO. The DAO will be the owner of the core contracts of the system and will be able to define what the contracts are able to do.
 
-The architecture is using the Diamond Standard (EIP-2535) which allows for smart contracts to add, upgrade or remove functionality. The Ethereum smart contracts are limited to 24KB of maximum contract size, however implementing this standard allows us to bypass this limitation.
+The architecture is using [the Diamond Standard (EIP-2535)](https://eips.ethereum.org/EIPS/eip-2535) which allows for smart contracts to add, upgrade or remove functionality. The Ethereum smart contracts are limited to 24KB of maximum contract size, however implementing this standard allows us to bypass this limitation.
 
 It also allows the BarnBridge DAO to choose what functionality to be changed and how. If we promise that a specific functionality will be later disabled from the contract system, we can remove the bytecode which was specifically describing that functionality. That means that there’s no risk of that part of the contract to be re-enabled in the future. Because we can remove specific parts of the contract, we remove the bloat from our contract system, making them easily auditable by the community, while having greater flexibility. 
 
@@ -246,6 +244,7 @@ The risk assessment framework used to rate the tranches could be used to determi
 
 ***Digital MOB - DigitalMob, a software development company experienced in building complex blockchain products, is taking the technical role in the product with 
 an extensive team of web3 developers, web and mobile developers, system architects, security experts and analysts.***
+
 4. **Milad Mostavi** - Milad co-founded and runs DigitalMOB. He is a seasoned software architect and in the past 5 years has worked with ConsenSys on a dozen of different projects. His contribution was decisive in successfully launching SingularDTV and Gnosis and orchestrated the development of SingularDTV’s entertainment decentralised ecosystem.
 5. **Daniel Luca** - Daniel is a developer at heart with a passion for security. He joined Alethio in 2017, where he was part of the team building the product from the beginning. After seeing the prevalence of catastrophic Smart Contract bugs, where lots of funds were stolen or lost, he joined ConsenSys Diligence in 2018 to make Ethereum safer. He spent his time doing audits for world class clients, built open source tools for the ecosystem, and researched new techniques to exploit Ethereum. Now he is at Digital MOB to handle Smart Contract development, security audits and be a product technical lead.
 6. **Bogdan Gheorghe** - Bogdan considers himself a DeFi nerd - with a background in mathematics and data science, he spent the past 2 years at Alethio doing data analysis on blockchain data, using and researching almost all DeFi protocols in order to put a DeFi flavor to the Alethio product suite. Having also worked on development and sales for the Codefi DeFi data API, he was in contact with all of the major protocol teams. Now he is part of Digital MOB taking the product owner responsibility to build DeFi products.
