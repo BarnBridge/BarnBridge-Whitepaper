@@ -12,7 +12,7 @@ The traditional financial system, referred to as tradFi in this paper, is seeing
 
 The need for familiar tradFi instruments to exist throughout the DeFi ecosystem has never been stronger.  **BarnBridge is an idea whose time has come.** 
 
-### 1.1 Risk Ramps and tradFi Bridges
+## ***INTRO*** Risk Ramps and tradFi Bridges
 
 The yield products in the decentralized markets which are yielding higher APY than yield products in traditional markets are currently crypto backed loans.  Instead of selling crypto for fiat, borrowers are staking digital and receiving digital assets in return.  While these loans have mostly been short term loans to traders, the system has proven to be efficient & larger.  These efficiencies will cause longer loans and larger loans to move to decentralized ledgers.   The efficiencies referenced are caused by smart contracts being able to hold digital collateral until both sides of the transaction fulfill their obligations algorithmically.  The reduction of custody, settlement, and escrow - previously labor intensive actions - to algorithmic actions is reducing the rent charged by the labor to perform these actions.  These efficiencies, coupled with the perception of higher risk, are why the yields are higher on decentralized systems.  As risk in defi moves to the levels of risk in tradFi, by the nature of the loans moving from crypto backed loans to traders to collateralized mortgage loans to homeowners, for instance, the efficiency of smart contracts will continue to offer higher yield on decentralized systems than traditional centralized systems. 
 
@@ -30,7 +30,7 @@ There is a massive market for people wanting to get into crypto who (1) don’t 
 
 In the shorter term phase (DeFi) & medium term phase (Proof of Stake) risk ramps will continue to create markets and industries for traditional investment firms who want to “get off zero” or “get above 1%.”  As this happens,, more and more types of loans will move to decentralized ledgers.  In the long run, and partially through this process, lenders and borrowers will understand why decentralized and trustless intermediaries are superior and less costly than the current 3rd party intermediaries. As this happens, larger portions of the $244 trillion in global debt will move to the chain, creating the opportunity for more yield, more risk ramps, and higher CD-like (collateralized debt) products for fiat and crypto depositors of the new age commercial banks & financial markets. 
 
-### 1. Introduction: Fluctuation Derivatives Protocol
+## 1. Introduction: Fluctuation Derivatives Protocol
 
 BarnBridge is the first fluctuation derivative protocol.  Before the advent of smart contract technology it was close to impossible to track & attribute yield to a divided allotment of capital, trustlessly & transparently, to provide hedges against any and all fluctuations.  Conceptually, you can build derivative products form any type of market driven fluctuation to hedge various risks.  Examples include, but are not limited to, interest rate sensitivity, fluctuations in underlying market price, fluctuations in predictive market odds, fluctuations in default rates across mortgages, fluctuations in commodity prices, and a seemingly infinite number of market based fluctuations to hedge a particular position. 
 
