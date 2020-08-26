@@ -1,4 +1,5 @@
 ## 1. Abstract
+
 BarnBridge is an idea & whitepaper who’s framework was originally built in Q2 2019.  At the time, MakerDAO was starting to garner mainstream awareness and capture the imagination of what is now known as the DeFi, or decentralized finance, community.  Over a year later, with 60% of Global debt yielding less than 1% & over $15 trillion of global debt yielding negative rates, capital continues moving into higher risk yield streams.  This is not a coincidence or a trend.  Historically speaking, going all the way back to biblical times, working capital chases yield, assuming relatively equal risk. 
 
 The acceleration of debt levels, across the globe, was happening before the financial crisis caused by Covid-19.  In Q1 2020, we saw global debt increase to $258 trillion.  This number is 331% above global GDP, according to the IIF, which represents global banks and financial institutions.  With the Federal Reserve suggesting that they have an infinite supply of cash and the euphemism “money printer go brrrr” joining the mainstream lexicon, it’s quite clear these numbers will likely increase and debt issuance to GDP will continue to accelerate. 
@@ -19,7 +20,9 @@ As previously discussed, these efficiencies should extrapolate to mortgage debt 
 
 There is a massive market for people wanting to get into crypto who (1) don’t want to bite off the entire risk curve of owning, lending, or receiving an entire digital asset & (2) will never take the time to use a decentralized autonomous organizations (DAOs) to create a smart contract which algorithmically scripts both sides of the loan or agreement. Over 99.9% of global debt is still structured via traditional markets and is starving for yield.  Conversely, more advanced financial companies have different risk tolerances.  This allows for different structures at each point of the yield curve with the riskiest (likely hedge funds) wanting to put the least money down with the highest return for their bet/hedge.  On the contrary, more conservative investors are often willing to give up a large portion of upside opportunity in order to access safer instruments.  “Riskless” products, as tradFi describes them,  are not currently offered in the decentralized financial ecosystem. The opportunity to structure these types of instruments will allow for more risk averse investors in the traditional markets to move into the decentralized markets. 
 In the shorter term phase (DeFi) & medium term phase (Proof of Stake) risk ramps will continue to create markets and industries for traditional investment firms who want to “get off zero” or “get above 1%.”  As this happens,, more and more types of loans will move to decentralized ledgers.  In the long run, and partially through this process, lenders and borrowers will understand why decentralized and trustless intermediaries are superior and less costly than the current 3rd party intermediaries. As this happens, larger portions of the $244 trillion in global debt will move to the chain, creating the opportunity for more yield, more risk ramps, and higher CD-like (collateralized debt) products for fiat and crypto depositors of the new age commercial banks & financial markets. 
-1.2 Introduction: Fluctuation Derivatives Protocol
+
+### 1.2 Introduction: Fluctuation Derivatives Protocol
+
 BarnBridge is the first fluctuation derivative protocol.  Before the advent of smart contract technology it was close to impossible to track & attribute yield to a divided allotment of capital, trustlessly & transparently, to provide hedges against any and all fluctuations.  Conceptually, you can build derivative products from any type of market driven fluctuation to hedge various risks.  Examples include, but are not limited to, interest rate sensitivity, fluctuations in underlying market price, fluctuations in predictive market odds, fluctuations in default rates across mortgages, fluctuations in commodity prices, and a seemingly infinite number of market based fluctuations to hedge a particular position. 
 
 We plan to create the first cross platform derivatives protocol for any and all fluctuations.  To start, we will focus on yield sensitivity & market price.  Downstream, we plan to introduce a far wider variety of hedges against fluctuations in the decentralized ecosystem.  BarnBridge aims to be platform and asset agnostic. 
@@ -106,15 +109,17 @@ For example, if the current price of 1 ETH is expected to be $1000, and moves to
 How these gains and losses are measured & allocated across tranches can be done algorithmically with smart contracts.  Each tranche can be traded as a unique digital asset.  For example jETH (a junior tranche of ETH price exposure), mETH (a mezzanine tranche of ETH price exposure, and sETH (a senior tranche of ETH price exposure).  The tranches will exist as risk ramps in which users of various risk appetites can gain price exposure to digital assets. 
 
 The SMART Alpha product will make way to build tranches of single asset and multi-asset pools that generate yield and where lower risk ramps get lower returns when the underlying assets rise & lower losses when they drop.  However, we can build this without needing yield attached at all.  The opportunity for downstream opportunities to use various risk ramps for differing collateral obligations is a logical progression these risk ramps will create.
+
 #### 2.3 UI/UX Interface (Light) 
 #### 2.4 UI/UX Interface (Dark) 
 
 ## 3. Token - $BOND
 
 BOND is an ERC-20 token. It will be used to stake in the system, and as a governance token when the governance module is launched. As it conforms to the ERC-20 standard, the $BOND token is tradeable on any exchange and storable on any wallet - allowing anyone in the world to access it.
+
 ### 3.1 Distribution
-T
-he distribution breakdown is designed to facilitate the most decentralized protocol and make sure power doesn’t reside in the hands of a few.
+
+The distribution breakdown is designed to facilitate the most decentralized protocol and make sure power doesn’t reside in the hands of a few.
 
 ### 3.2 Governance
 
@@ -126,7 +131,7 @@ BarnBridge is taking a “DAO First Approach” to spinning up the protocol, cho
 
 
 
-***Launch DAO***
+**Launch DAO**
 
 Starting with Launch DAO, the Founders, Seeders, and Advisors are using an Aragon DAO Company Template which uses transferable tokens to represent ownership stake.  Decisions are made based on stake-weighted voting. The native token of the Launch DAO will be $BBVOTE. The Founders will receive 45%, Seeders will receive 45%, and Advisors will get 10%.  The support will be set to 62%, which means more than 62% of the voting shares need to be present at a vote.  The minimum will be set to 62%, meaning for a proposal to be passed it must be approved by at least 62%.  
 
@@ -134,7 +139,7 @@ The funds from the seeders and the initial supply of the $BOND token will be kep
 
 
  
-***BarnBridge DAO***
+**BarnBridge DAO**
 
 BarnBridge DAO will be the DAO that is controlled by the $BOND community.  The BarnBridge DAO will have full control over the protocol and the features that are built into it.  We are doing this through the use of the The Diamond Standard (EIP-2535), which allows us to upgrade the protocol without having all the members remove their tokens and switch to a version 2 of the protocol that time arises.  The BarnBridge DAO will have full control over the Diamond which provides amazing flexibility in the WEB3 space.  We expand on this in the Smart Contracts section (4.2.1).  
 
@@ -142,7 +147,7 @@ BarnBridge DAO will be the DAO that is controlled by the $BOND community.  The B
 
 We are using an inflation curve based off a fork of the Synthetix contract.  Users will be able to stake and liquidity mine on a 2 year exponential decay.
 
-***Inflation Curve***
+**Inflation Curve**
 
 1. Staking Reward Part 1/2: Receive $BOND pro-rata from inflation (double initial token supply over 2 year exponential decay)
 2. Current Fixed interest rate offered is capped at current yield generated from Pool (Lending APY + Gov Tokens)
@@ -158,14 +163,14 @@ We are determined to provide a great user experience for users, making sure prev
 
 ### 4.2 Components & Timelines
 
-***Launch DAO***
+**Launch DAO**
 
 We will use the community contracts based on Aragon DAO Company Template to create the base of the core DAO. Because the contracts have already been in production for so long, we trust the functionality and features they provide. 
 
 We expect to do minimum changes to the initial source code. However, we will create tests for our most common use cases, make sure the user flow makes sense and the users have an easy UX to join in the DAO.
 Estimated time to build, test and launch: Completed
 
-***BarnBridge DAO***
+**BarnBridge DAO**
 
 This subsequent DAO might need to have multiple specific functionality that the Aragon DAO Company Template does not already have. This is why we will likely choose an upgradable smart contract system (such as EIP-2535), which will allow us to add, remove and upgrade functionality as the community sees fit.
 
@@ -174,7 +179,7 @@ Estimated time to build, test and launch on testnet: 6 weeks
 
 An additional external audit will push the launch on the mainnet by approximately 4 weeks.  More details in 4.2.2 on Audits & Simulations. 
 
-***SMART Yield Bonds***
+**SMART Yield Bonds**
 
 The whole DAO setup is done to solidify the path towards SMART Yield Bonds.  This is the first DeFi product of the BarnBridge Platform. The Voting DAO will be able to deploy pools that anyone can join if they want to take advantage of this core mechanic.  
 
@@ -239,18 +244,18 @@ The risk assessment framework used to rate the tranches could be used to determi
 
 ### 6.1 Core Team
 
-1. ***Troy Murray*** - snglsDAO Foundation Supervisor helping build out the decentralized content future started out working for a Bitcoin video service in 2013 was bitten by the Ethereum bug in 2015 wanting to see how far we could push smart contract development. DeFi is fulfilling a lot of the original promises that Ethereum brought to the table and looks forward to seeing the effects a trustless financial system with sophisticated instruments will bring to the world at large.
-2. ***Tyler Ward*** - Tyler runs Proof Systems, one of the largest marketing & UI/UX companies specializing in digital assets.  Tyler has worked with ConsenSys, Earn.com (who was acquired by Coinbase), FOAM, Dether, & Grid+, Centrality, Sylo (a decentralized messaging dApp with 300k users in NZ), NEAR Protocol, DARMA Capital, SingularDTV & the snglsDAO.  He started working in crypto in late 2016 & has bought and sold numerous ecommerce companies. 
+1. **Troy Murray** - snglsDAO Foundation Supervisor helping build out the decentralized content future started out working for a Bitcoin video service in 2013 was bitten by the Ethereum bug in 2015 wanting to see how far we could push smart contract development. DeFi is fulfilling a lot of the original promises that Ethereum brought to the table and looks forward to seeing the effects a trustless financial system with sophisticated instruments will bring to the world at large.
+2. **Tyler Ward** - Tyler runs Proof Systems, one of the largest marketing & UI/UX companies specializing in digital assets.  Tyler has worked with ConsenSys, Earn.com (who was acquired by Coinbase), FOAM, Dether, & Grid+, Centrality, Sylo (a decentralized messaging dApp with 300k users in NZ), NEAR Protocol, DARMA Capital, SingularDTV & the snglsDAO.  He started working in crypto in late 2016 & has bought and sold numerous ecommerce companies. 
 ***Digital MOB*** - DigitalMob, a software development company experienced in building complex blockchain products, is taking the technical role in the product with an extensive team of web3 developers, web and mobile developers, system architects, security experts and analysts.
-4. ***Milad Mostavi*** - Milad co-founded and runs DigitalMOB. He is a seasoned software architect and in the past 5 years has worked with ConsenSys on a dozen of different projects. His contribution was decisive in successfully launching SingularDTV and Gnosis and orchestrated the development of SingularDTV’s entertainment decentralised ecosystem.
-5. ***Daniel Luca*** - Daniel is a developer at heart with a passion for security. He joined Alethio in 2017, where he was part of the team building the product from the beginning. After seeing the prevalence of catastrophic Smart Contract bugs, where lots of funds were stolen or lost, he joined ConsenSys Diligence in 2018 to make Ethereum safer. He spent his time doing audits for world class clients, built open source tools for the ecosystem, and researched new techniques to exploit Ethereum. Now he is at Digital MOB to handle Smart Contract development, security audits and be a product technical lead.
-6. ***Bogdan Gheorghe*** - Bogdan considers himself a DeFi nerd - with a background in mathematics and data science, he spent the past 2 years at Alethio doing data analysis on blockchain data, using and researching almost all DeFi protocols in order to put a DeFi flavor to the Alethio product suite. Having also worked on development and sales for the Codefi DeFi data API, he was in contact with all of the major protocol teams. Now he is part of Digital MOB taking the product owner responsibility to build DeFi products.
-7. ***Dragos Rizescu*** - Dragos is responsible for product development at Digital MOB. His background is full stack developer with a passion for building highly scalable user interfaces; and in the past 5 years has been at the forefront of web3 technologies. He co-founded Treum.io, a blockchain supply chain solution that brings transparency, traceability and tradability to highly valuable physical assets. As a developer, he was part of the core team to launch projects such as Gnosis and SingularDTV and has advised and supported multiple projects in the ecosystem, most notably Alethio. He worked with ConsenSys to support the enterprise arm of the company, being part of the development team to deliver the first non-financial Ethereum use case, a track and trace solution of rock samples for BHP and a solution for decentralized energy markets with BP. 
+4. **Milad Mostavi** - Milad co-founded and runs DigitalMOB. He is a seasoned software architect and in the past 5 years has worked with ConsenSys on a dozen of different projects. His contribution was decisive in successfully launching SingularDTV and Gnosis and orchestrated the development of SingularDTV’s entertainment decentralised ecosystem.
+5. **Daniel Luca** - Daniel is a developer at heart with a passion for security. He joined Alethio in 2017, where he was part of the team building the product from the beginning. After seeing the prevalence of catastrophic Smart Contract bugs, where lots of funds were stolen or lost, he joined ConsenSys Diligence in 2018 to make Ethereum safer. He spent his time doing audits for world class clients, built open source tools for the ecosystem, and researched new techniques to exploit Ethereum. Now he is at Digital MOB to handle Smart Contract development, security audits and be a product technical lead.
+6. **Bogdan Gheorghe** - Bogdan considers himself a DeFi nerd - with a background in mathematics and data science, he spent the past 2 years at Alethio doing data analysis on blockchain data, using and researching almost all DeFi protocols in order to put a DeFi flavor to the Alethio product suite. Having also worked on development and sales for the Codefi DeFi data API, he was in contact with all of the major protocol teams. Now he is part of Digital MOB taking the product owner responsibility to build DeFi products.
+7. **Dragos Rizescu** - Dragos is responsible for product development at Digital MOB. His background is full stack developer with a passion for building highly scalable user interfaces; and in the past 5 years has been at the forefront of web3 technologies. He co-founded Treum.io, a blockchain supply chain solution that brings transparency, traceability and tradability to highly valuable physical assets. As a developer, he was part of the core team to launch projects such as Gnosis and SingularDTV and has advised and supported multiple projects in the ecosystem, most notably Alethio. He worked with ConsenSys to support the enterprise arm of the company, being part of the development team to deliver the first non-financial Ethereum use case, a track and trace solution of rock samples for BHP and a solution for decentralized energy markets with BP. 
 
 ### 6.2 Advisors/Technology Partners
 
-1. ***Aaron McDonald*** - Co-Founder and CEO Aaron is a 20 year tech industry veteran with experience leading teams across all aspects of a technology company managing portfolios over $1b in value. Aaron founded Centrality a leading $100m global venture studio supports a venture portfolio leveraging decentralised technology to create new market innovation and customer experiences. Aaron is a board member or advisor to more than a dozen venture companies around the world. In 2018 Aaron was awarded EY Entrepreneur of the Year for the technology and emerging industries category. 
-2. ***Atpar*** - the company behind ACTUS protocol -- whose goal is to provide the Ethereum community with the tools necessary for fulfilling the vision of an open, interoperable and frictionless financial ecosystem. At its core, the ACTUS Protocol leverages the Algorithmic Contract Types Unified Standards (ACTUS) which is a standardized representation of all kinds of financial contracts in terms of their legal obligations.
+1. **Aaron McDonald** - Co-Founder and CEO Aaron is a 20 year tech industry veteran with experience leading teams across all aspects of a technology company managing portfolios over $1b in value. Aaron founded Centrality a leading $100m global venture studio supports a venture portfolio leveraging decentralised technology to create new market innovation and customer experiences. Aaron is a board member or advisor to more than a dozen venture companies around the world. In 2018 Aaron was awarded EY Entrepreneur of the Year for the technology and emerging industries category. 
+2. **Atpar** - the company behind ACTUS protocol -- whose goal is to provide the Ethereum community with the tools necessary for fulfilling the vision of an open, interoperable and frictionless financial ecosystem. At its core, the ACTUS Protocol leverages the Algorithmic Contract Types Unified Standards (ACTUS) which is a standardized representation of all kinds of financial contracts in terms of their legal obligations.
 
 ## 6.3 Development Team
 1 Project Lead 
