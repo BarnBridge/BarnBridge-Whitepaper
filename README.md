@@ -256,8 +256,8 @@ an extensive team of web3 developers, web and mobile developers, system architec
 2. **Atpar** - the company behind ACTUS protocol -- whose goal is to provide the Ethereum community with the tools necessary for fulfilling the vision of an open, interoperable and frictionless financial ecosystem. At its core, the ACTUS Protocol leverages the Algorithmic Contract Types Unified Standards (ACTUS) which is a standardized representation of all kinds of financial contracts in terms of their legal obligations.
 
 ## 6.3 Development Team
-1 Project Lead 
-1 Software Architect, QA & DevOps
-2 Solidity developers
-2 Front end developers
-1 Back end developer
+- 1 Project Lead 
+- 1 Software Architect, QA & DevOps
+- 2 Solidity developers
+- 2 Front end developers
+- 1 Back end developer
