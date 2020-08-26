@@ -1,6 +1,6 @@
 ![](images/BB_Logo.png)
 
-# **Fluctuation Derivatives Protocol** 
+# **SMART Bonds on Ethereum** 
 #### ***Cross Platform Protocol for Hedging Yield Sensitivity & Market Price Delta***
 
 ## Abstract
