@@ -155,14 +155,14 @@ We are determined to provide a great user experience for users, making sure prev
 
 ### 4.2 Components & Timelines
 
-**Launch DAO**
+#### **Launch DAO**
 
 We will use the community contracts based on Aragon DAO Company Template to create the base of the core DAO. Because the contracts have already been in production for so long, we trust the functionality and features they provide. 
 
 We expect to do minimum changes to the initial source code. However, we will create tests for our most common use cases, make sure the user flow makes sense and the users have an easy UX to join in the DAO.
 - Estimated time to build, test and launch: **Completed**
 
-**BarnBridge DAO**
+#### **BarnBridge DAO**
 
 This subsequent DAO might need to have multiple specific functionality that the Aragon DAO Company Template does not already have. This is why we will likely choose an upgradable smart contract system (such as EIP-2535), which will allow us to add, remove and upgrade functionality as the community sees fit.
 
