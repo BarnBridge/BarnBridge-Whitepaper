@@ -121,7 +121,7 @@ BarnBridge is taking a “DAO First Approach” to spinning up the protocol, cho
 
 ![](images/image11.png)
 
-**Launch DAO**
+#### **Launch DAO**
 
 Starting with Launch DAO, the Founders, Seeders, and Advisors are using an Aragon DAO Company Template which uses transferable tokens to represent ownership stake.  Decisions are made based on stake-weighted voting. The native token of the Launch DAO will be $BBVOTE. The Founders will receive 45%, Seeders will receive 45%, and Advisors will get 10%.  The support will be set to 62%, which means more than 62% of the voting shares need to be present at a vote.  The minimum will be set to 62%, meaning for a proposal to be passed it must be approved by at least 62%.  
 
@@ -129,7 +129,7 @@ The funds from the seeders and the initial supply of the $BOND token will be kep
 
 ![](images/image9.png)
 
-**BarnBridge DAO**
+#### **BarnBridge DAO**
 
 BarnBridge DAO will be the DAO that is controlled by the $BOND community.  The BarnBridge DAO will have full control over the protocol and the features that are built into it.  We are doing this through the use of the The Diamond Standard (EIP-2535), which allows us to upgrade the protocol without having all the members remove their tokens and switch to a version 2 of the protocol that time arises.  The BarnBridge DAO will have full control over the Diamond which provides amazing flexibility in the WEB3 space.  We expand on this in the Smart Contracts section (4.2.1).  
 
