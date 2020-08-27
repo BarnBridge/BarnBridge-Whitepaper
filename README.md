@@ -171,7 +171,7 @@ The BarnBridge DAO will become the core component of the BarnBridge Platform bec
 
 An additional external audit will push the launch on the mainnet by approximately **4 weeks.**  More details in 4.2.2 on Audits & Simulations. 
 
-**Smart Yield Bonds**
+#### **Smart Yield Bonds**
 
 The whole DAO setup is done to solidify the path towards SMART Yield Bonds.  This is the first DeFi product of the BarnBridge Platform. The Voting DAO will be able to deploy pools that anyone can join if they want to take advantage of this core mechanic.  
 
@@ -182,7 +182,7 @@ This consists of pool contracts that the users interact with, the deployment fac
 
 An additional external audit will push the launch on the mainnet by approximately **6 weeks.** More details in 4.2.2 on Audits & Simulations. 
 
-***Smart Alpha Bonds***
+#### **Smart Alpha Bonds**
 
 Following the model of the Smart Yield Bonds, the DAO controls the setup and the parameters for SMART Alpha Bonds. Additionally the smart contract oracles will be critical in determining the price of the staked assets, as well as the price when the pool period starts and also when the period ends, to have a fair distribution of earnings or losses.  
 
