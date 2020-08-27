@@ -131,7 +131,7 @@ The funds from the seeders and the initial supply of the $BOND token will be kep
 
 #### **BarnBridge DAO**
 
-BarnBridge DAO will be the DAO that is controlled by the $BOND community.  The BarnBridge DAO will have full control over the protocol and the features that are built into it.  We are doing this through the use of the The Diamond Standard (EIP-2535), which allows us to upgrade the protocol without having all the members remove their tokens and switch to a version 2 of the protocol that time arises.  The BarnBridge DAO will have full control over the Diamond which provides amazing flexibility in the WEB3 space.  We expand on this in the Smart Contracts section (4.2.1).  
+BarnBridge DAO will be the DAO that is controlled by the $BOND community.  The BarnBridge DAO will have full control over the protocol and the features that are built into it.  We are doing this through the use of the the [Diamond Standard (EIP-2535)](https://eips.ethereum.org/EIPS/eip-2535), which allows us to upgrade the protocol without having all the members remove their tokens and switch to a version 2 of the protocol that time arises.  The BarnBridge DAO will have full control over the Diamond which provides amazing flexibility in the WEB3 space.  We expand on this in the Smart Contracts section (4.2.1).  
 
 #### 3.2.2 Tokenomics
 
@@ -164,7 +164,7 @@ We expect to do minimum changes to the initial source code. However, we will cre
 
 #### **BarnBridge DAO**
 
-This subsequent DAO might need to have multiple specific functionality that the Aragon DAO Company Template does not already have. This is why we will likely choose an upgradable smart contract system (such as EIP-2535), which will allow us to add, remove and upgrade functionality as the community sees fit.
+This subsequent DAO might need to have multiple specific functionality that the Aragon DAO Company Template does not already have. This is why we will likely choose an upgradable smart contract system (such as [EIP-2535](https://eips.ethereum.org/EIPS/eip-2535)), which will allow us to add, remove and upgrade functionality as the community sees fit.
 
 The BarnBridge DAO will become the core component of the BarnBridge Platform because it will be able to make decisions in a decentralized manner that will be able to enforce the best actions for the wellness of the community.
 - Estimated time to build, test and launch on testnet: **6 weeks**
