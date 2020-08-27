@@ -1,7 +1,7 @@
 ![](images/BB_Logo.png)
 
 # **Smart Bonds on Ethereum** 
-#### ***Cross Platform Protocol for Hedging Yield Sensitivity & Market Price Delta***
+#### ***Fixed and variable interest products backed by DeFi yields.***
 
 ## Abstract
 
