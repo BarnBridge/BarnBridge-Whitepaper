@@ -55,11 +55,11 @@ Furthermore, efficiencies across lending protocols are non-existent in the curre
 
 **Flattening the risk curve across DeFi.**
 
-![](images/image2.png)
+![](images/#2.png)
 
 **Bundling and Rating.**
 
-![](images/image2.png)
+![](images/#2-1.png)
 
 Our first structuring will not only allow deFi users to get access to fixed yield but also pools yield from numerous protocols across the ecosystem creating a more efficient market, again, smoothing out the yield curve across the entire industry. 
 
@@ -67,15 +67,15 @@ While we expect singular lending protocols to introduce concepts around fixed in
 
 **Risk and Loss Scenarios.**
 
-![](images/image3.png)
+![](images/#3-1.png)
 
 **Scenario 1:**
 
-![](images/image3.png)
+![](images/#3.png)
 
 **Scenario 2:**
 
-![](images/image3.png)
+![](images/#3-2.png)
 
 Pooled collateral would be deposited into lending protocols or yield generating contracts, and the yield will be bundled up into different tranches and tokenized. So you could buy exposure to the most senior tranche and get a lower yield but have a much lower risk profile.  SMART bonds are a way to buy and sell risk on yield with all of the pricing driven purely by the market.
 
@@ -109,7 +109,7 @@ BOND is an ERC-20 token. It will be used to stake in the system, and as a govern
 
 The distribution breakdown is designed to facilitate the most decentralized protocol and make sure power doesn’t reside in the hands of a few.
 
-![](images/image7.png)
+![](images/community.png)
 
 ### 3.2 Governance
 
@@ -119,7 +119,7 @@ The $BOND token will be the system’s governance token, empowering $BOND holder
 
 BarnBridge is taking a “DAO First Approach” to spinning up the protocol, choosing to use decentralized tools from the start to achieve our final goal of complete decentralization and having a flexible smart contract system able to add / upgrade / remove functionality all based on DAO proposals. There will be an incubator DAO called Launch DAO & the final protocol DAO called BarnBridge DAO.
 
-![](images/image11.png)
+![](images/community2.png)
 
 #### **Launch DAO**
 
