@@ -55,11 +55,11 @@ Furthermore, efficiencies across lending protocols are non-existent in the curre
 
 **Flattening the risk curve across DeFi.**
 
-![](images/#2.png)
+![](images/2.png)
 
 **Bundling and Rating.**
 
-![](images/#2-1.png)
+![](images/2-1.png)
 
 Our first structuring will not only allow deFi users to get access to fixed yield but also pools yield from numerous protocols across the ecosystem creating a more efficient market, again, smoothing out the yield curve across the entire industry. 
 
@@ -67,15 +67,15 @@ While we expect singular lending protocols to introduce concepts around fixed in
 
 **Risk and Loss Scenarios.**
 
-![](images/#3-1.png)
+![](images/3-1.png)
 
 **Scenario 1:**
 
-![](images/#3.png)
+![](images/3.png)
 
 **Scenario 2:**
 
-![](images/#3-2.png)
+![](images/3-2.png)
 
 Pooled collateral would be deposited into lending protocols or yield generating contracts, and the yield will be bundled up into different tranches and tokenized. So you could buy exposure to the most senior tranche and get a lower yield but have a much lower risk profile.  SMART bonds are a way to buy and sell risk on yield with all of the pricing driven purely by the market.
 
