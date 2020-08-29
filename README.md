@@ -1,7 +1,7 @@
 ![](images/BB_Logo.png)
 
-# **Smart Bonds on Ethereum** 
-#### ***Fixed and variable interest products backed by DeFi yields.***
+# **Fluctuation Derivatives Protocol** 
+#### ***A cross platform protocol for tokenizing risk.***
 
 ## Abstract
 
