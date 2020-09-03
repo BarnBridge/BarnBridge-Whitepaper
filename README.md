@@ -133,18 +133,6 @@ The funds from the seeders and the initial supply of the $BOND token will be kep
 
 BarnBridge DAO will be the DAO that is controlled by the $BOND community.  The BarnBridge DAO will have full control over the protocol and the features that are built into it.  We are doing this through the use of the the [Diamond Standard (EIP-2535)](https://eips.ethereum.org/EIPS/eip-2535), which allows us to upgrade the protocol without having all the members remove their tokens and switch to a version 2 of the protocol that time arises.  The BarnBridge DAO will have full control over the Diamond which provides amazing flexibility in the WEB3 space.  We expand on this in the Smart Contracts section (4.2.1).  
 
-#### 3.2.2 Tokenomics
-
-We are using an inflation curve based off a fork of the Synthetix contract.  Users will be able to stake and liquidity mine on a 2 year exponential decay.
-
-**Inflation Curve**
-
-1. Staking Reward Part 1/2: Receive $BOND pro-rata from inflation (double initial token supply over 2 year exponential decay)
-2. Current Fixed interest rate offered is capped at current yield generated from Pool (Lending APY + Gov Tokens)
-
-![](images/image8.png)
-
-
 ## 4. Scope of Work
 
 ### 4.1 Development Introduction
