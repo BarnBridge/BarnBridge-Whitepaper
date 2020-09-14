@@ -60,7 +60,7 @@ Furthermore, efficiencies across lending protocols are non-existent in the curre
 
 **Bundling and Rating.**
 
-![](images/2-1.png)
+![](images/Bundling and rating.png)
 
 Our first structuring will not only allow deFi users to get access to fixed yield but also pools yield from numerous protocols across the ecosystem creating a more efficient market, again, smoothing out the yield curve across the entire industry. 
 
@@ -68,15 +68,15 @@ While we expect singular lending protocols to introduce concepts around fixed in
 
 **Risk and Loss Scenarios.**
 
-![](images/3-1.png)
+![](images/1abb.png)
 
 **Scenario 1:**
 
-![](images/3.png)
+![](images/Group 899.png)
 
 **Scenario 2:**
 
-![](images/3-2.png)
+![](images/Group 1031.png)
 
 Pooled collateral would be deposited into lending protocols or yield generating contracts, and the yield will be bundled up into different tranches and tokenized. So you could buy exposure to the most senior tranche and get a lower yield but have a much lower risk profile.  SMART bonds are a way to buy and sell risk on yield with all of the pricing driven purely by the market.
 
@@ -110,7 +110,7 @@ BOND is an ERC-20 token. It will be used to stake in the system, and as a govern
 
 The distribution breakdown is designed to facilitate the most decentralized protocol and make sure power doesn’t reside in the hands of a few.
 
-![](images/community.png)
+![](images/Token Distribution.png)
 
 ### 3.2 Governance
 
@@ -128,7 +128,7 @@ Starting with Launch DAO, the Founders, Seeders, and Advisors are using an Arago
 
 The funds from the seeders and the initial supply of the $BOND token will be kept in the Launch DAO treasury.  Launch DAO will also have Aragon Agent activated and we will possibly develop integrations for Uniswap pool allocation and Balancer pool allocation control directly into the DAO. 
 
-![](images/image9.png)
+![](images/21.png)
 
 #### **BarnBridge DAO**
 
