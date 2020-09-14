@@ -56,7 +56,7 @@ Furthermore, efficiencies across lending protocols are non-existent in the curre
 
 **Flattening the risk curve across DeFi.**
 
-![](images/fix1.png)
+![](images/imagenew.png)
 
 **Bundling and Rating.**
 
