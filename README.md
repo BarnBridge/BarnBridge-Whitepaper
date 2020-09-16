@@ -112,6 +112,17 @@ The distribution breakdown is designed to facilitate the most decentralized prot
 
 ![](images/TokenDistribution.png)
 
+#### 3.1.1 Fair Vesting
+
+The vesting schedule is designed so that there is not a giant cliff waiting over investors heads at a specific point.  The tokens allocated to the Founders, Seed Investors, and Advisors are locked in a smart contract that releases the tokens on a weekly basis over a two year period.  The vesting period starts with the launch of the Yield Farming mechanism.  This breaksdown as such:
+- Total amount of $BOND tokens: 10,000,000
+- Percent of $BOND tokens allocated to Founders, Seed Investors, & Advisors: 22%
+- Total amount of $BOND tokens vested: 2,200,000
+- Length of vesting: 2 years (104 weeks)
+- Release schedule: 1 week
+- Amount of $BOND tokens released each week: 4,230.7692307692
+- Percent of $BOND tokens released each week: .04%
+
 ### 3.2 Governance
 
 The $BOND token will be the system’s governance token, empowering $BOND holders to vote on updates to the platform. Combining governance mechanisms and incentivizing holders, it will serve as a means to align the different stakeholders in the system.  $BOND will also serve as a security and policy management medium. Decentralized, automated governance, that incentivizes participants and aims for security, sustainability, and participant welfare is key to a DeFi protocol’s success. 
