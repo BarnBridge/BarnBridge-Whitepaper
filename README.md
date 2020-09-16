@@ -114,7 +114,7 @@ The distribution breakdown is designed to facilitate the most decentralized prot
 
 #### 3.1.1 Fair Vesting
 
-The vesting schedule is designed so that there is not a giant cliff waiting over investors heads at a specific point.  The tokens allocated to the Founders, Seed Investors, and Advisors are locked in a smart contract that releases the tokens on a weekly basis over a two year period.  The vesting period starts with the launch of the Yield Farming mechanism.  This breaksdown as such:
+The vesting schedule is designed so that there is not a giant cliff waiting over users heads at a specific point.  The tokens allocated to the Founders, Seed Investors, and Advisors are locked in a smart contract that releases the tokens on a weekly basis over a two year period.  The vesting period starts with the launch of the Yield Farming mechanism.  This breaksdown as such:
 - Total amount of $BOND tokens: 10,000,000
 - Percent of $BOND tokens allocated to Founders, Seed Investors, & Advisors: 22%
 - Total amount of $BOND tokens vested: 2,200,000
