@@ -131,7 +131,7 @@ The $BOND token will be the system’s governance token, empowering $BOND holder
 
 BarnBridge is taking a “DAO First Approach” to spinning up the protocol, choosing to use decentralized tools from the start to achieve our final goal of complete decentralization and having a flexible smart contract system able to add / upgrade / remove functionality all based on DAO proposals. There will be an incubator DAO called Launch DAO & the final protocol DAO called BarnBridge DAO.
 
-![](images/community2.png)
+![](images/daofirst.png)
 
 #### **Launch DAO**
 
