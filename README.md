@@ -54,14 +54,6 @@ Decentralized financial instruments are showcasing the power that a trustless fi
 
 Furthermore, efficiencies across lending protocols are non-existent in the current DeFi markets. The ability to pull yield from numerous protocols and tranche them into higher and lower yield buckets is something that exists in traditional financial markets but is more efficient in decentralized financial markets, assuming an acceptable level of liquidity. 
 
-**Flattening the risk curve across DeFi.**
-
-![](images/imagenew.png)
-
-**Bundling and Rating.**
-
-![](images/Bundlingandrating.png)
-
 Our first structuring will not only allow deFi users to get access to fixed yield but also pools yield from numerous protocols across the ecosystem creating a more efficient market, again, smoothing out the yield curve across the entire industry. 
 
 While we expect singular lending protocols to introduce concepts around fixed income on their platform, a major differentiation of a cross protocol based approach to fixed income is the diversified assets & diversified platform risk. By algorithmically pooling interest generating digital assets on a number of lending platforms, we will create greater efficiencies by spreading risk & normalizing the industry risk curve. Since BarnBridge does not lend money directly off a native platform, & instead pools lending across the industry, it allows us to be platform agnostic & digital asset agnostic which in turn will allow for more complex structuring and bond rating systems downstream.
