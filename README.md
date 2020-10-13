@@ -231,7 +231,7 @@ The risk assessment framework used to rate the tranches could be used to determi
 
 ### 6.1 Core Team
 
-- **Troy Murray** - Troy runs RUDE_labs, a crypto centric artist company.  Troy has been exploring the many benefits that Blockchain can bring to media and artists since 2012 when he got bit by the Bitcoin bug and has been falling down the rabbit hole ever since.  Troy has worked in an around the Crypto space ever since, devoting most of his time to Ethereum based projects.
+- **Troy Murray** - Troy runs RUDE_labs, a crypto centric artist company.  Troy has been exploring the many benefits that Blockchain can bring to media and artists since 2012 when he got bit by the Bitcoin bug and has been falling down the rabbit hole ever since.  Troy has worked in an around the Crypto space ever since, devoting most of his time to Ethereum based projects.  Previously was working full time on SingularDTV/Breaker and snglsDAO trying to decentralize media and entertainment.  Before that was building a Title III equity crowd funding platform using Ethereum tokens in 2016. 
 - **Tyler Ward** - Tyler runs Proof Systems, one of the largest marketing & UI/UX companies specializing in digital assets.  Tyler has worked with ConsenSys, Earn.com (who was acquired by Coinbase), FOAM, Dether, & Grid+, Centrality, Sylo (a decentralized messaging dApp with 300k users in NZ), NEAR Protocol, DARMA Capital, SingularDTV & the snglsDAO.  He started working in crypto in late 2016 & has bought and sold numerous ecommerce companies. 
 
 ***Digital MOB - DigitalMob, a software development company experienced in building complex blockchain products, is taking the technical role in the product with 
