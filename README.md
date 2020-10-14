@@ -1,7 +1,7 @@
 ![](images/BB_Logo.png)
 
-# **Fluctuation Derivatives Protocol** 
-#### ***A cross platform protocol for Tokenizing Risk with Fixed Yield and Volatility Tranche Products.***
+# **Tokenized Risk Protocol** 
+#### ***A fluctuations derivatives protocol for hedging yield sensitivity and market price.***
 
 ## Abstract
 
