@@ -110,10 +110,10 @@ The vesting schedule is designed so that there is not a giant cliff waiting over
 - Total amount of $BOND tokens: 10,000,000
 - Percent of $BOND tokens allocated to Founders, Seed Investors, & Advisors: 22%
 - Total amount of $BOND tokens vested: 2,200,000
-- Length of vesting: 2 years (104 weeks)
+- Length of vesting: 100 weeks
 - Release schedule: 1 week
-- Amount of $BOND tokens released each week: 4,230.7692307692
-- Percent of $BOND tokens released each week: .04%
+- Amount of $BOND tokens released each week: 11,001
+- Percent of $BOND tokens released each week: 0.5%
 
 ### 3.2 Governance
 
