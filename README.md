@@ -71,7 +71,7 @@ While we expect singular lending protocols to introduce concepts around fixed in
 
 Pooled collateral would be deposited into lending protocols or yield generating contracts, and the yield will be bundled up into different tranches and tokenized. So you could buy exposure to the most senior tranche and get a lower yield but have a much lower risk profile.  SMART bonds are a way to buy and sell risk on yield with all of the pricing driven purely by the market.
 
-Reference financial structuring can be found here.
+[Reference financial structuring can be found here.](https://docs.google.com/spreadsheets/d/157p5D_E_j_zYwc_QzHmVeJH_L64HubkXDPdMwVUkypY/edit#gid=2024388043)
 
 ### 2.2 Smart Alpha Bonds 
 
