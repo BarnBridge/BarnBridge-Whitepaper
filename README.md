@@ -29,7 +29,7 @@ There is a massive market for people wanting to get into crypto who (1) don’t 
 
 ![](images/image6.png)
 
-In the shorter term phase (DeFi) & medium term phase (Proof of Stake) risk ramps will continue to create markets and industries for traditional investment firms who want to “get off zero” or “get above 1%.”  As this happens,, more and more types of loans will move to decentralized ledgers.  In the long run, and partially through this process, lenders and borrowers will understand why decentralized and trustless intermediaries are superior and less costly than the current 3rd party intermediaries. As this happens, larger portions of the $244 trillion in global debt will move to the chain, creating the opportunity for more yield, more risk ramps, and higher CD-like (collateralized debt) products for fiat and crypto depositors of the new age commercial banks & financial markets. 
+In the shorter term phase (DeFi) & medium term phase (Proof of Stake) risk ramps will continue to create markets and industries for traditional investment firms who want to “get off zero” or “get above 1%.”  As this happens, more and more types of loans will move to decentralized ledgers.  In the long run, and partially through this process, lenders and borrowers will understand why decentralized and trustless intermediaries are superior and less costly than the current 3rd party intermediaries. As this happens, larger portions of the $244 trillion in global debt will move to the chain, creating the opportunity for more yield, more risk ramps, and higher CD-like (collateralized debt) products for fiat and crypto depositors of the new age commercial banks & financial markets. 
 
 ## 1. Fluctuation Derivatives Protocol
 
