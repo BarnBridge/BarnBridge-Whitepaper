@@ -41,9 +41,9 @@ You can reduce the risk of digital assets & digital asset yield sensitivity by b
 
 ## 2. Initial Product Offerings
 
-Smart $BONDS - **S**tructured **M**arket **A**djusted **R**isk **T**ranches
+SMART $BONDS - **S**tructured **M**arket **A**djusted **R**isk **T**ranches
 
-### 2.1 Smart Yield Bonds 
+### 2.1 SMART Yield Bonds 
 
 Interest rate volatility risk mitigation using debt based derivatives.
 
@@ -53,7 +53,7 @@ Decentralized financial instruments are showcasing the power that a trustless fi
 
 Furthermore, efficiencies across lending protocols are non-existent in the current DeFi markets. The ability to pull yield from numerous protocols and tranche them into higher and lower yield buckets is something that exists in traditional financial markets but is more efficient in decentralized financial markets, assuming an acceptable level of liquidity. 
 
-Our first structuring will not only allow deFi users to get access to fixed yield but also pools yield from numerous protocols across the ecosystem creating a more efficient market, again, smoothing out the yield curve across the entire industry. 
+Our first structuring will not only allow DeFi users to get access to fixed yield but also pools yield from numerous protocols across the ecosystem creating a more efficient market, again, smoothing out the yield curve across the entire industry. 
 
 While we expect singular lending protocols to introduce concepts around fixed income on their platform, a major differentiation of a cross protocol based approach to fixed income is the diversified assets & diversified platform risk. By algorithmically pooling interest generating digital assets on a number of lending platforms, we will create greater efficiencies by spreading risk & normalizing the industry risk curve. Since BarnBridge does not lend money directly off a native platform, & instead pools lending across the industry, it allows us to be platform agnostic & digital asset agnostic which in turn will allow for more complex structuring and bond rating systems downstream.
 
@@ -73,7 +73,7 @@ Pooled collateral would be deposited into lending protocols or yield generating 
 
 [Reference financial structuring can be found here.](https://docs.google.com/spreadsheets/d/157p5D_E_j_zYwc_QzHmVeJH_L64HubkXDPdMwVUkypY/edit#gid=2024388043)
 
-### 2.2 Smart Alpha Bonds 
+### 2.2 SMART Alpha Bonds 
 
 Market Price Exposure Risk Mitigation using tranched volatility derivatives.
 
@@ -105,7 +105,7 @@ The distribution breakdown is designed to facilitate the most decentralized prot
 
 #### 3.1.1 Fair Vesting
 
-The vesting schedule is designed so that there is not a giant cliff waiting over users heads at a specific point.  The tokens allocated to the Founders, Seed Investors, and Advisors are locked in a smart contract that releases the tokens on a weekly basis over a two year period.  The vesting period starts with the launch of the Yield Farming mechanism.  This breaksdown as such:
+The vesting schedule is designed so that there is not a giant cliff waiting over users heads at a specific point.  The tokens allocated to the Founders, Seed Investors, and Advisors are locked in a smart contract that releases the tokens on a weekly basis over a two year period.  The vesting period starts with the launch of the Yield Farming mechanism.  This breaks down as such:
 - Total amount of $BOND tokens: 10,000,000
 - Percent of $BOND tokens allocated to Founders, Seed Investors, & Advisors: 22%
 - Total amount of $BOND tokens vested: 2,200,000
@@ -162,7 +162,7 @@ The BarnBridge DAO will become the core component of the BarnBridge Platform bec
 
 An additional external audit will push the launch on the mainnet by approximately **4 weeks.**  More details in 4.2.2 on Audits & Simulations. 
 
-#### **Smart Yield Bonds**
+#### **SMART Yield Bonds**
 
 The whole DAO setup is done to solidify the path towards SMART Yield Bonds.  This is the first DeFi product of the BarnBridge Platform. The Voting DAO will be able to deploy pools that anyone can join if they want to take advantage of this core mechanic.  
 
@@ -173,9 +173,9 @@ This consists of pool contracts that the users interact with, the deployment fac
 
 An additional external audit will push the launch on the mainnet by approximately **6 weeks.** More details in 4.2.2 on Audits & Simulations. 
 
-#### **Smart Alpha Bonds**
+#### **SMART Alpha Bonds**
 
-Following the model of the Smart Yield Bonds, the DAO controls the setup and the parameters for SMART Alpha Bonds. Additionally the smart contract oracles will be critical in determining the price of the staked assets, as well as the price when the pool period starts and also when the period ends, to have a fair distribution of earnings or losses.  
+Following the model of the SMART Yield Bonds, the DAO controls the setup and the parameters for SMART Alpha Bonds. Additionally the smart contract oracles will be critical in determining the price of the staked assets, as well as the price when the pool period starts and also when the period ends, to have a fair distribution of earnings or losses.  
 
 This DeFi product is composed of the actual pool contracts the users interact with, specific deployment factories, which deploy and set up the pool contracts, and the complimentary back-end and front-end.
 - Estimated time to build, test and launch: **20 weeks**
