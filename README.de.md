@@ -1,3 +1,9 @@
+> **⚠ WARNING: this is a non-canonical translation**  
+> The source of truth is alway the original [English Whitepaper](README.md)  
+> Warnung: Dies ist eine Übersetzung. Maßgebend ist immer das [englische Original](README.md).
+
+-----------
+  
 ![](images/BB_Logo.png)
 
 # **Ein Protokoll zur Risiko-Tokenisierung**
