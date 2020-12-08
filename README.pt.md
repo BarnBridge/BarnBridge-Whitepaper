@@ -37,55 +37,55 @@ Na fase de curto prazo (DeFi) e na fase de médio prazo (Prova de Participação
 
 BarnBridge é o primeiro protocolo de derivativos de flutuação. Antes do advento da tecnologia de contrato inteligente, era quase impossível rastrear e atribuir o rendimento a uma distribuição dividida de capital, de forma confiável e transparente, para fornecer proteção contra todas e quaisquer flutuações. Conceitualmente, você pode construir produtos derivados de qualquer tipo de flutuação impulsionada pelo mercado para proteger vários riscos. Os exemplos incluem, mas não estão limitados a, sensibilidade à taxa de juros, flutuações no preço de mercado subjacente, flutuações nas probabilidades de mercado preditivas, flutuações nas taxas de inadimplência em hipotecas, flutuações nos preços de commodities e um número aparentemente infinito de flutuações baseadas no mercado para proteger um determinado posição. 
 
-We plan to create the first cross platform derivatives protocol for any and all fluctuations.  To start, we will focus on yield sensitivity & market price.  Downstream, we plan to introduce a far wider variety of hedges against fluctuations in the decentralized ecosystem.  BarnBridge aims to be platform and asset agnostic. 
+Planejamos criar o primeiro protocolo derivado de plataforma cruzada para todas e qualquer flutuação. Para começar, vamos nos concentrar na sensibilidade do rendimento e preço de mercado. Futuramente planejamos introduzir uma variedade muito maior de barreiras contra as flutuações no ecossistema descentralizado. BarnBridge pretende ser independente de plataforma e ativos.
 
-You can reduce the risk of digital assets & digital asset yield sensitivity by breaking them into essentially infinite, separate, dollar-denominated chunks, or tranches, and building derivatives off these tranches.  BarnBridge aims to smooth out the risk curve and offer layered risk management to both DeFi & tradFi investors by building more efficient debt & yield based derivatives. 
+Você pode reduzir o risco de ativos digitais e sensibilidade de rendimento de ativos digitais dividindo-os em partes ou fatias essencialmente infinitas, separadas e denominadas em dólares, e construindo derivados a partir dessas fatias. BarnBridge visa suavizar a curva de risco e oferecer gerenciamento de risco em camadas para ambos os investidores DeFi e tradFi, construindo derivativos baseados em dívida e rendimento mais eficientes. 
 
 ## 2. Initial Product Offerings
 
-SMART $BONDS - **S**tructured **M**arket **A**djusted **R**isk **T**ranches
+SMART $BONDS - **E**strutura **M**ercado **A**justado **R**isco **F**atias
 
 ### 2.1 SMART Yield Bonds 
 
-Interest rate volatility risk mitigation using debt based derivatives.
+Mitigação do risco de volatilidade da taxa de juros usando derivativos baseados em dívida.
 
-Currently, the decentralized financial system is primarily offering variable rate annuities.  However, the ability to structure yield into fixed rates will come in the form of locked collateral with a maturity on repayments, or bonds, as well as fixed rate yields with no maturity, or annuities. We don’t believe this to be a novel idea & we believe naturally that these types of products will come to DeFi over time. However, the types of derivatives & complexity reduction in financial planning you’ll be able to structure and implement with the existence of fixed yield in smart contracts will be mind blowing to traditional financial markets.
+Atualmente, o sistema financeiro descentralizado está oferecendo principalmente anuidades de taxa variável. No entanto, a capacidade de estruturar o rendimento em taxas fixas virá na forma de colateral bloqueado com vencimento nos reembolsos, ou títulos, bem como rendimentos de taxa fixa sem vencimento ou anuidades. Não acreditamos que seja uma ideia nova e acreditamos naturalmente que esses tipos de produtos chegarão ao DeFi com o tempo. No entanto, os tipos de derivativos e redução da complexidade no planejamento financeiro que você será capaz de estruturar e implementar com a existência de rendimento fixo em contratos inteligentes serão alucinantes para os mercados financeiros tradicionais.
 
-Decentralized financial instruments are showcasing the power that a trustless financial industry can wield.  Powerhouse projects in the DeFi space like MakerDAO, Synthetix, AAVE, Compound, Curve, and others are producing yields for users that have none of the constraints and rent seeking of tradFi instruments by replacing bookkeepers, escrow and various overhead with algorithms, trustless oracles, and decentralized ledgers. Different market driven yields can be found on numerous decentralized platforms, but there is nothing out there that services & pulls together all of the different decentralized protocols & allows for a normalized risk curve and derivatives for risk mitigation.
+Instrumentos financeiros descentralizados estão mostrando o poder que um setor financeiro sem confiança pode exercer. Projetos poderosos no espaço DeFi como MakerDAO, Synthetix, AAVE, Compound, Curve e outros estão produzindo rendimentos para usuários que não têm nenhuma das restrições e busca de aluguel de instrumentos tradFi, substituindo o contador, escrow e vários overheads por algoritmos, oráculos sem confiança e block-chain.descentralizados. Diferentes rendimentos orientados pelo mercado podem ser encontrados em várias plataformas descentralizadas, mas não há nada lá fora que serviços e reúna todos os diferentes protocolos descentralizados e permita uma curva de risco normalizada e derivados para diminuição de risco.
 
-Furthermore, efficiencies across lending protocols are non-existent in the current DeFi markets. The ability to pull yield from numerous protocols and tranche them into higher and lower yield buckets is something that exists in traditional financial markets but is more efficient in decentralized financial markets, assuming an acceptable level of liquidity. 
+Além disso, as eficiências entre os protocolos de empréstimo são inexistentes nos mercados atuais de DeFi. A capacidade de extrair rendimento de vários protocolos e dividi-los em grupos de rendimentos maiores e menores é algo que existe nos mercados financeiros tradicionais, mas é mais eficiente em mercados financeiros descentralizados, assumindo um nível aceitável de liquidez.
 
-Our first structuring will not only allow DeFi users to get access to fixed yield but also pools yield from numerous protocols across the ecosystem creating a more efficient market, again, smoothing out the yield curve across the entire industry. 
+Nossa primeira estruturação não só permitirá que os usuários do DeFi tenham acesso ao rendimento fixo, mas também agrupará o rendimento de vários protocolos em todo o ecossistema, criando um mercado mais eficiente, novamente, suavizando a curva de rendimento em todo o setor.
 
-While we expect singular lending protocols to introduce concepts around fixed income on their platform, a major differentiation of a cross protocol based approach to fixed income is the diversified assets & diversified platform risk. By algorithmically pooling interest generating digital assets on a number of lending platforms, we will create greater efficiencies by spreading risk & normalizing the industry risk curve. Since BarnBridge does not lend money directly off a native platform, & instead pools lending across the industry, it allows us to be platform agnostic & digital asset agnostic which in turn will allow for more complex structuring and bond rating systems downstream.
+Embora esperemos que protocolos de empréstimo singulares introduzam conceitos em torno de renda fixa em sua plataforma, uma grande diferenciação de uma abordagem baseada em protocolo cruzado para renda fixa são os ativos diversificados e o risco de plataforma diversificado. Ao agrupar algoritmicamente ativos digitais geradores de interesse em uma série de plataformas de empréstimo, criaremos maior eficiência ao distribuir o risco e normalizar a curva de risco da indústria. Como a BarnBridge não empresta dinheiro diretamente de uma plataforma nativa e, em vez disso, agrupa os empréstimos em toda a indústria, ela nos permite ser agnósticos em relação à plataforma e aos ativos digitais, o que, por sua vez, permitirá uma estruturação mais complexa e sistemas de classificação de títulos downstream.
 
-**Risk and Loss Scenarios.**
+**Risco e casos de perda**
 
 ![](images/1abb1.png)
 
-**Scenario 1:**
+**Caso 1:**
 
 ![](images/Group899.png)
 
-**Scenario 2:**
+**Caso 2:**
 
 ![](images/Group1031.png)
 
-Pooled collateral would be deposited into lending protocols or yield generating contracts, and the yield will be bundled up into different tranches and tokenized. So you could buy exposure to the most senior tranche and get a lower yield but have a much lower risk profile. SMART bonds are a way to buy and sell risk on yield with all of the pricing driven purely by the market.
+A garantia conjunta seria depositada em protocolos de empréstimo ou contratos de geração de rendimento, e o rendimento seria agrupado em diferentes fatias e convertido em token. Portanto, você pode comprar exposição a fatia Sênior e obter um rendimento inferior, mas com um perfil de risco muito menor. Os títulos SMART são uma forma de comprar e vender risco sobre o rendimento com todos os preços impulsionados exclusivamente pelo mercado.
 
 [Reference financial structuring can be found here.](https://docs.google.com/spreadsheets/d/157p5D_E_j_zYwc_QzHmVeJH_L64HubkXDPdMwVUkypY/edit#gid=2024388043)
 
 ### 2.2 SMART Alpha Bonds 
 
-Market Price Exposure Risk Mitigation using tranched volatility derivatives.
+Diminuição do risco de exposição ao preço de mercado utilizando derivados de fatias volateis.
 
-The SMART Alpha bonds will not be structured via traditional yield tranches but instead with various levels of market price exposure, which we will call risk ramps.  The idea is that every bucket or tranche of price exposure does not need to be flat across the entire risk curve, meaning the first $100 of price exposure does not need to deserve the same upside and downside volatility.   **This is similar to having fractional ownership but with different risk/reward for the fractions.**
+Os títulos SMART Alpha não serão estruturados por meio de fatias de rendimento tradicionais, mas, em vez disso, com vários níveis de exposição ao preço de mercado, que chamaremos de rampas de risco. A ideia é que cada segmento ou fatia de exposição ao preço não precisa ser plano em toda a curva de risco, o que significa que os primeiros $100 da exposição ao preço não precisam merecer a mesma volatilidade positiva e negativa. **Isso é semelhante a ter propriedade fracionada, mas com risco/recompensa diferente para as frações.**
 
-For example, if the current price of 1 ETH is expected to be $1000, and moves to $900, the first tranche (the riskiest tranches) takes a higher percentage of the loss.  Conversely, if the current price of 1 ETH is expected to be $1000, and moves to $1100, the first tranche (the riskiest tranches) takes a higher percentage of the gain.  
+Por exemplo, se espera-se que o preço atual de 1 ETH seja de $1000 e passe para $900, a primeira fatia (a fatia mais arriscada) assume uma porcentagem maior da perda. Por outro lado, se o preço atual de 1 ETH for esperado em $1000 e passar para $1100, a primeira fatia (a fatia mais arriscada) terá uma porcentagem maior do ganho.
 
-How these gains and losses are measured & allocated across tranches can be done algorithmically with smart contracts.  Each tranche can be traded as a unique digital asset.  For example jETH (a junior tranche of ETH price exposure), mETH (a mezzanine tranche of ETH price exposure, and sETH (a senior tranche of ETH price exposure). The tranches will exist as risk ramps in which users of various risk appetites can gain price exposure to digital assets.
+A maneira como esses ganhos e perdas são medidos e alocados nas fatias pode ser feita por meio de algoritmos com contratos inteligentes. Cada fatia pode ser negociada como um ativo digital exclusivo. Por exemplo jETH (uma fatia júnior de exposição ao preço ETH), mETH (uma fatia intermediária de exposição ao preço ETH e sETH (uma fatia sênior da exposição ao preço ETH). As fatias existirão como rampas de risco em que os usuários de vários aplicacoes de risco podem ganhar exposição de preço a ativos digitais.
 
-The SMART Alpha product will make way to build tranches of single asset and multi-asset pools that generate yield and where lower risk ramps get lower returns when the underlying assets rise & lower losses when they drop. However, we can build this without needing yield attached at all. The opportunity for downstream opportunities to use various risk ramps for differing collateral obligations is a logical progression these risk ramps will create.
+O produto SMART Alpha abrirá caminho para construir tranches de ativos únicos e pools de múltiplos ativos que geram rendimento e onde rampas de risco mais baixas obtêm retornos menores quando os ativos subjacentes aumentam e perdas menores quando eles caem. No entanto, podemos construir isso sem precisar de rendimento em tudo. A oportunidade de oportunidades downstream de usar várias rampas de risco para diferentes obrigações de garantia é uma progressão lógica que essas rampas de risco criarão.
 
 #### 2.3 UI/UX Interface (Light) 
 
@@ -97,159 +97,165 @@ The SMART Alpha product will make way to build tranches of single asset and mult
 
 ## 3. Token - $BOND
 
-BOND is an ERC-20 token. It will be used to stake in the system, and as a governance token when the governance module is launched. As it conforms to the ERC-20 standard, the $BOND token is tradeable on any exchange and storable on any wallet - allowing anyone in the world to access it.
+BOND é um token ERC-20. Ele será usado para participar do sistema e como um token de governança quando o módulo de governança for lançado. Como está em conformidade com o padrão ERC-20, o token $BOND pode ser negociado em qualquer bolsa e armazenado em qualquer carteira - permitindo que qualquer pessoa no mundo o acesse.
 
-### 3.1 Distribution
+### 3.1 Distribuição
 
-The distribution breakdown is designed to facilitate the most decentralized protocol and make sure power doesn’t reside in the hands of a few.
+A divisão da distribuição é projetada para facilitar o protocolo mais descentralizado e garantir que o poder não fique nas mãos de poucos.
 
 ![](images/TokenDistribution.png)
 
-#### 3.1.1 Fair Vesting
+#### 3.1.1 Aquisicão justa
 
-The vesting schedule is designed so that there is not a giant cliff waiting over users heads at a specific point.  The tokens allocated to the Founders, Seed Investors, and Advisors are locked in a smart contract that releases the tokens on a weekly basis over a two year period.  The vesting period starts with the launch of the Yield Farming mechanism.  This breaks down as such:
-- Total amount of $BOND tokens: 10,000,000
-- Percent of $BOND tokens allocated to Founders, Seed Investors, & Advisors: 22%
-- Total amount of $BOND tokens vested: 2,200,000
-- Length of vesting: 100 weeks
-- Release schedule: 1 week
-- Amount of $BOND tokens released each week: 22,000
-- Percent of $BOND tokens released each week: 0.22%
+O cronograma de aquisição de direitos é projetado para que não haja um penhasco gigante esperando sobre as cabeças dos usuários em um ponto específico. Os tokens alocados aos Fundadores, Investidores Seed e Consultores estão presos em um contrato inteligente que libera os tokens semanalmente durante um período de dois anos. O período de aquisição começa com o lançamento do mecanismo de Agricultura Yield. Isso se divide da seguinte forma:
 
-### 3.2 Governance
+- Quantidade total de tokens de $BOND: 10.000.000
+- Porcentagem de tokens de $BOND alocados para fundadores, investidores iniciais e consultores: 22%
+- Valor total de tokens de $BOND adquiridos: 2.200.000
+- Duração da aquisição: 100 semanas
+- Cronograma de lançamento: 1 semana
+- Quantidade de tokens de $BOND liberados a cada semana: 22.000
+- Porcentagem de tokens $BOND lançados a cada semana: 0,22%
 
-The $BOND token will be the system’s governance token, empowering $BOND holders to vote on updates to the platform. Combining governance mechanisms and incentivizing holders, it will serve as a means to align the different stakeholders in the system.  $BOND will also serve as a security and policy management medium. Decentralized, automated governance, that incentivizes participants and aims for security, sustainability, and participant welfare is key to a DeFi protocol’s success. 
+### 3.2 Governaça
 
-#### 3.2.1 DAO First Approach
+O token $BOND será o token de governança do sistema, permitindo que os detentores de $BOND votem em atualizações para a plataforma. Combinando mecanismos de governança e incentivando os detentores, servirá como um meio para alinhar as diferentes partes interessadas no sistema. $BOND também servirá como meio de gerenciamento de segurança e política. A governança descentralizada e automatizada que incentiva os participantes e visa a segurança, sustentabilidade e bem-estar dos participantes é a chave para o sucesso do protocolo DeFi.
 
-BarnBridge is taking a “DAO First Approach” to spinning up the protocol, choosing to use decentralized tools from the start to achieve our final goal of complete decentralization and having a flexible smart contract system able to add / upgrade / remove functionality all based on DAO proposals. There will be an incubator DAO called Launch DAO & the final protocol DAO called BarnBridge DAO.
+#### 3.2.1 Primeira Abordagem DAO
+
+BarnBridge está adotando uma “Primeira Abordagem DAO” para acelerar o protocolo, escolhendo usar ferramentas descentralizadas desde o início para atingir nosso objetivo final de descentralização completa e ter um sistema de contrato inteligente flexível capaz de adicionar / atualizar / remover funcionalidade, tudo baseado em propostas DAO . Haverá uma incubadora DAO chamada Lançamento DAO e o protocolo final DAO denominado BarnBridge DAO.
 
 ![](images/DAOFirst12.png)
 
-#### **Launch DAO**
+#### **Lançamento DAO**
 
-Starting with Launch DAO, the Founders, Seeders, and Advisors are using an Aragon DAO Company Template which uses transferable tokens to represent ownership stake.  Decisions are made based on stake-weighted voting. The native token of the Launch DAO will be $BBVOTE. The Founders will receive 45%, Seeders will receive 45%, and Advisors will get 10%.  The support will be set to 62%, which means more than 62% of the voting shares need to be present at a vote.  The minimum will be set to 62%, meaning for a proposal to be passed it must be approved by at least 62%.  
+Começando com o lançamento DAO, os fundadores, semeadores e consultores estão usando um modelo de empresa Aragon DAO que usa tokens transferíveis para representar a participação acionária. As decisões são tomadas com base na votação ponderada da estaca. O token nativo do DAO de lançamento será $BBVOTE. Os Fundadores receberão 45%, os Semeadores receberão 45% e os Conselheiros receberão 10%. O apoio será fixado em 62%, o que significa que mais de 62% das ações com direito a voto precisam estar presentes em uma votação. O mínimo será definido em 62%, o que significa que para uma proposta ser aprovada deve ser aprovada em pelo menos 62%.
 
-The funds from the seeders and the initial supply of the $BOND token will be kept in the Launch DAO treasury.  Launch DAO will also have Aragon Agent activated and we will possibly develop integrations for Uniswap pool allocation and Balancer pool allocation control directly into the DAO. 
+Os fundos dos semeadores e o fornecimento inicial do token $BOND serão mantidos no tesouro do DAO de lançamento. O lançamento do DAO também terá o Aragon Agent ativado e possivelmente desenvolveremos integrações para alocação de pool Uniswap e controle de alocação de pool Balancer diretamente no DAO.
 
 ![](images/21.png)
 
 #### **BarnBridge DAO**
 
-BarnBridge DAO will be the DAO that is controlled by the $BOND community.  The BarnBridge DAO will have full control over the protocol and the features that are built into it.  We are doing this through the use of the the [Diamond Standard (EIP-2535)](https://eips.ethereum.org/EIPS/eip-2535), which allows us to upgrade the protocol without having all the members remove their tokens and switch to a version 2 of the protocol that time arises.  The BarnBridge DAO will have full control over the Diamond which provides amazing flexibility in the WEB3 space.  We expand on this in the Smart Contracts section (4.2.1).  
+BarnBridge DAO será o DAO controlado pela comunidade $BOND. O BarnBridge DAO terá controle total sobre o protocolo e os recursos integrados a ele. Estamos fazendo isso por meio do uso do [Diamond Standard (EIP-2535)](https://eips.ethereum.org/EIPS/eip-2535), o que nos permite atualizar o protocolo sem que todos os membros removam seus tokens e mudem para uma versão 2 do protocolo quando chegar o momento. O BarnBridge DAO terá controle total sobre o Diamond, o que oferece incrível flexibilidade no espaço WEB3. Expandimos isso na seção Contratos inteligentes [(4.2.1)](#421-smart-contracts).
 
-## 4. Scope of Work
+## 4. Escopo de Trabalho
 
-### 4.1 Development Introduction
+### 4.1 Introdução ao Desenvolvimento
 
-The following section describes the MVP / Beta release of the product, which will help inform the product development direction, allow us to start collecting data and ensure the product is aligned with what the market needs.
+A seção a seguir descreve o lançamento MVP / Beta do produto, que nos ajudará a informar a direção do desenvolvimento do produto, nos permitirá começar a coletar dados e garantir que o produto esteja alinhado com as necessidades do mercado.
 
-We are determined to provide a great user experience for users, making sure previous pools are visible and our community can make a well informed decision about when and how to join in. However, we expect the community to build some of the analytics which will accompany the core product.  We welcome this development as it will provide more insight into the product.
+Estamos determinados a fornecer uma ótima experiência  para os usuários, garantindo que os pools anteriores sejam visíveis e que nossa comunidade possa tomar uma decisão bem informada sobre quando e como participar. No entanto, esperamos que a comunidade crie algumas das análises que irão acompanhar o produto principal. Estamos satisfeitos com este desenvolvimento, pois fornecerá mais informações sobre o produto.
 
-### 4.2 Components & Timelines
+### 4.2 Componentes e cronogramas
 
-#### **Launch DAO**
+#### **Lançamento DAO**
 
-We will use the community contracts based on Aragon DAO Company Template to create the base of the core DAO. Because the contracts have already been in production for so long, we trust the functionality and features they provide. 
+Usaremos os contratos da comunidade baseados no modelo Aragon DAO Company para criar a base do DAO principal. Como os contratos já estão em produção há muito tempo, confiamos na funcionalidade e nos recursos que eles fornecem. 
 
-We expect to do minimum changes to the initial source code. However, we will create tests for our most common use cases, make sure the user flow makes sense and the users have an easy UX to join in the DAO.
-- Estimated time to build, test and launch: **Completed**
+Esperamos fazer mudanças mínimas no código-fonte inicial. No entanto, criaremos testes para nossos casos de uso mais comuns, certifique-se de que o fluxo do usuário faça sentido e os usuários tenham uma UX fácil para ingressar no DAO.
+
+- Tempo estimado para construir, testar e lançar: **Concluído**
 
 #### **BarnBridge DAO**
 
-This subsequent DAO might need to have multiple specific functionality that the Aragon DAO Company Template does not already have. This is why we will likely choose an upgradable smart contract system (such as [EIP-2535](https://eips.ethereum.org/EIPS/eip-2535)), which will allow us to add, remove and upgrade functionality as the community sees fit.
+Este DAO subseqüente pode precisar ter várias funcionalidades específicas que o modelo de empresa Aragon DAO ainda não tem. É por isso que provavelmente escolheremos um sistema de contrato inteligente atualizável (como [EIP-2535](https://eips.ethereum.org/EIPS/eip-2535)), o que nos permitirá adicionar, remover e atualizar a funcionalidade conforme a comunidade considerar adequada.
 
-The BarnBridge DAO will become the core component of the BarnBridge Platform because it will be able to make decisions in a decentralized manner that will be able to enforce the best actions for the wellness of the community.
-- Estimated time to build, test and launch on testnet: **6 weeks**
+O BarnBridge DAO se tornará o componente principal da Plataforma BarnBridge porque será capaz de tomar decisões de uma maneira descentralizada que poderá aplicar as melhores ações para o bem-estar da comunidade.
 
-An additional external audit will push the launch on the mainnet by approximately **4 weeks.**  More details in 4.2.2 on Audits & Simulations. 
+- Tempo estimado para construir, testar e lançar em testnet: **6 semanas**
+
+Uma auditoria externa adicional impulsionará o lançamento na rede principal em aproximadamente **4 semanas.** Mais detalhes em [4.2.2](#422-auditoria-e-simulações) sobre Auditorias e Simulações.
 
 #### **SMART Yield Bonds**
 
-The whole DAO setup is done to solidify the path towards SMART Yield Bonds.  This is the first DeFi product of the BarnBridge Platform. The Voting DAO will be able to deploy pools that anyone can join if they want to take advantage of this core mechanic.  
+Toda a configuração do DAO é feita para solidificar o caminho em direção aos SMART Yield Bonds. Este é o primeiro produto DeFi da Plataforma BarnBridge. O DAO de votação será capaz de implantar pools que qualquer pessoa pode ingressar, se quiser tirar proveito dessa mecânica central. 
 
-Because the DAO’s control the whole system, which means the community decides how the system will be used, the parameters for this DeFi product will be in part determined by the community.  Some of the other parameters will be decided by the decentralized oracle system (such as Chainlink), which needs to set proper, real and attainable parameters for the pools to be valid.
+Como o DAO controla todo o sistema, o que significa que a comunidade decide como o sistema será usado, os parâmetros para este produto DeFi serão em parte determinados pela comunidade. Alguns dos outros parâmetros serão decididos pelo sistema oráculo descentralizado (como Chainlink), que precisa definir parâmetros adequados, reais e atingíveis para que os pools sejam válidos.
 
-This consists of pool contracts that the users interact with, the deployment factories that deploy & set up the pool contracts, and the complimentary back-end and front-end that creates a high fidelity UX for the community.
-- Estimated time to build, test and launch on the testnet (including the oracle system): **12 weeks**
+Isso consiste em contratos de pool com os quais os usuários interagem, as fábricas de implantação que implantam e configuram os contratos de pool e o back-end e front-end complementares que cria um UX de alta fidelidade para a comunidade.
 
-An additional external audit will push the launch on the mainnet by approximately **6 weeks.** More details in 4.2.2 on Audits & Simulations. 
+- Tempo estimado para construir, testar e lançar no testnet (incluindo o sistema oracle): **12 semanas**
+
+Uma auditoria externa adicional impulsionará o lançamento na rede principal em aproximadamente **6 semanas.** Mais detalhes em [4.2.2](#422-auditoria-e-simulações) sobre Auditorias e Simulações.
 
 #### **SMART Alpha Bonds**
 
-Following the model of the SMART Yield Bonds, the DAO controls the setup and the parameters for SMART Alpha Bonds. Additionally the smart contract oracles will be critical in determining the price of the staked assets, as well as the price when the pool period starts and also when the period ends, to have a fair distribution of earnings or losses.  
+Seguindo o modelo dos SMART Yield Bonds, o DAO controla a configuração e os parâmetros dos SMART Alpha Bonds. Além disso, os oráculos de contrato inteligente serão críticos na determinação do preço dos ativos apostados, bem como o preço quando o período do pool começa e também quando o período termina, para ter uma distribuição justa de ganhos ou perdas.
 
-This DeFi product is composed of the actual pool contracts the users interact with, specific deployment factories, which deploy and set up the pool contracts, and the complimentary back-end and front-end.
-- Estimated time to build, test and launch: **20 weeks**
+Este produto DeFi é composto pelos contratos de pool reais com os quais os usuários interagem, fábricas de implantação específicas, que implantam e configuram os contratos de pool, e o back-end e front-end complementares.
 
-An additional external audit will push the launch on the mainnet by approximately **6 weeks.** More details in 4.2.2 on Audits & Simulations. 
+- Tempo estimado para construir, testar e lançar: **20 semanas**
+
+Uma auditoria externa adicional impulsionará o lançamento na rede principal em aproximadamente **6 semanas.** Mais detalhes em [4.2.2](#422-auditoria-e-simulações) sobre Auditorias e Simulações.
 
 #### 4.2.1 Smart Contracts
 
-Because we want to have a completely decentralized system, our whole infrastructure is based around a community driven DAO. The DAO will be the owner of the core contracts of the system and will be able to define what the contracts are able to do.
+Como queremos um sistema totalmente descentralizado, toda a nossa infraestrutura é baseada em um DAO conduzido pela comunidade. O DAO será o proprietário dos contratos centrais do sistema e poderá definir o que os contratos podem fazer.
 
-The architecture is using the [Diamond Standard (EIP-2535)](https://eips.ethereum.org/EIPS/eip-2535) which allows for smart contracts to add, upgrade or remove functionality. The Ethereum smart contracts are limited to 24KB of maximum contract size, however implementing this standard allows us to bypass this limitation.
+A arquitetura está usando o [Diamond Standard (EIP-2535)](https://eips.ethereum.org/EIPS/eip-2535) que permite que contratos inteligentes adicionem, atualizem ou removam funcionalidades. Os contratos inteligentes Ethereum são limitados a 24 KB do tamanho máximo do contrato, no entanto, a implementação desse padrão nos permite contornar essa limitação.
 
-It also allows the BarnBridge DAO to choose what functionality to be changed and how. If we promise that a specific functionality will be later disabled from the contract system, we can remove the bytecode which was specifically describing that functionality. That means that there’s no risk of that part of the contract to be re-enabled in the future. Because we can remove specific parts of the contract, we remove the bloat from our contract system, making them easily auditable by the community, while having greater flexibility. 
+Ele também permite que o BarnBridge DAO escolha qual funcionalidade ser alterada e como. Se prometermos que uma funcionalidade específica será posteriormente desativada do sistema de contrato, podemos remover o bytecode que estava descrevendo especificamente essa funcionalidade. Isso significa que não há risco de essa parte do contrato ser reativada no futuro. Como podemos remover partes específicas do contrato, removemos o inchaço de nosso sistema de contrato, tornando-os facilmente auditáveis pela comunidade, ao mesmo tempo que temos maior flexibilidade.
 
-This will not only be an amazing addition to the tech stack but also would help push forward the Ethereum ecospace. This EIP brings many advantages, not only to our protocol, but the Ethereum ecosystem at the aggregate level.
+Isso não será apenas um acréscimo incrível à pilha de tecnologia, mas também ajudará a impulsionar o ecosspace Ethereum. Este EIP traz muitas vantagens, não só para o nosso protocolo, mas para o ecossistema Ethereum em nível agregado.
 
-To keep the core philosophy of having a completely decentralized system, we will use a decentralized oracle system such as Chainlink. This will allow us to do off-chain computation that can be later used on-chain. This will be useful for, but not limited to, setting pool parameters such as the lending APY. Of course this off-chain system can be replaced and upgraded by the DAO.
+Para manter a filosofia central de ter um sistema completamente descentralizado, usaremos um sistema oráculo descentralizado como o Chainlink. Isso nos permitirá fazer cálculos fora da cadeia que podem ser usados posteriormente na cadeia. Isso será útil, mas não limitado a, definir parâmetros de pool, como o APY de empréstimo. É claro que este sistema off-chain pode ser substituído e atualizado pelo DAO.
 
 ![](images/image12.png)
 
-#### 4.2.2 Audit & Simulations
+#### 4.2.2 Auditoria e Simulações
 
-To make sure our platform behaves as we expect it to, we will do multiple internal audits throughout the development cycle.  Our team has the capability to write secure code that behaves according to the specs. 
+Para garantir que nossa plataforma se comporte como esperamos, faremos várias auditorias internas ao longo do ciclo de desenvolvimento. Nossa equipe tem a capacidade de escrever código seguro que se comporta de acordo com as especificações.
 
-Additionally, to the internal audits, we will do external audits with top companies in this space.  External reviews are an absolute requirement as the development team is too close to the written code to look at it with fresh, new eyes & be critical of the design choices.  An external audit reveals inconsistencies between specifications and implementation, makes sure the documentation is updated, stresses the security model of the smart contract, and creates a better experience for the actors interacting with the contracts.
+Além das auditorias internas, faremos auditorias externas com as principais empresas deste espaço. As revisões externas são um requisito absoluto, pois a equipe de desenvolvimento está muito próxima do código escrito para vê-lo com outros olhares e novamente a e ser crítica em relação às escolhas de design. Uma auditoria externa revela inconsistências entre especificações e implementação, garante que a documentação seja atualizada, reforça o modelo de segurança do contrato inteligente e cria uma experiência melhor para os atores que interagem com os contratos.
 
-On top of audits, we will also do agent simulations to model different scenarios and user behaviors, in order to visualize how the system evolves over time.  We can model different user strategies that interact with our system and fast forward time to see how the system’s properties change.
+Além das auditorias, também faremos simulações de agentes para modelar diferentes cenários e comportamentos do usuário, a fim de visualizar como o sistema evolui ao longo do tempo. Podemos modelar diferentes estratégias de usuário que interagem com nosso sistema e acelerar o tempo para ver como as propriedades do sistema mudam.
 
-We will also do formal verification of core contract functionality.  Formal verification is an expensive and complex process but it provides additional security.  Core parts of the system will be modeled and formally verified by our team internally but also by external auditors.  It is important to make sure that we do this because the distribution, internal accounting, mathematical properties and specific variants keep our users safe.
+Também faremos a verificação formal da funcionalidade principal do contrato. A verificação formal é um processo caro e complexo, mas fornece segurança adicional. As partes principais do sistema serão modeladas e formalmente verificadas por nossa equipe internamente, mas também por auditores externos. É importante ter certeza de que fazemos isso porque a distribuição, contabilidade interna, propriedades matemáticas e variantes específicas mantêm nossos usuários seguros.
 
 #### 4.3 Post-MVP 
 
-The post MVP, or the next release of the product will have the mainnet release as its highlight.  Protocol agnostic SMART Yield Bonds, and development and testing of the SMART Alpha product will mark the post MVP - and therefore complete the launch of the full featured BarnBridge protocol and products.  The SMART Yield product and liquidity mining will launch before the SMART Alpha product. 
+O pós MVP, ou o próximo lançamento do produto, terá o lançamento da mainnet como destaque. Os títulos de rendimento SMART agnósticos de protocolo e o desenvolvimento e teste do produto SMART Alpha marcarão o pós MVP - e concluirão o lançamento do protocolo e produtos BarnBridge com todos os recursos. O produto SMART Yield e a mineração de liquidez serão lançados antes do produto SMART Alpha.
 
-## 5 Future Work
+## 5 Trabalho Futuro
 
 #### 5.1.1 Gas Fees
 
-As multiple operations with different gas costs are necessary, these fees can add up pretty quickly. There are layer 2 solutions that would increase scalability and allow for complex operations and large numbers of transfers while simultaneously reducing associated costs. A potential solution that has already hit mainnet (looking at you Loopring) are zk rollups - which at a high level involve the bundling up transfers into a single transaction. Most of the computations are done off chain, and enforced through validity proofs. Moving the heavy lifting off-chain allows for much higher throughput, keeps costs lower, and - just as importantly - doesn’t sacrifice security. For an app that targets large numbers of active users, a solution aimed at scalability is the way to go. 
+Como várias operações com diferentes custos de gás são necessárias, essas taxas podem aumentar muito rapidamente. Existem soluções da camada 2 que aumentariam a escalabilidade e permitiriam operações complexas e um grande número de transferências, reduzindo simultaneamente os custos associados. Uma solução potencial que já atingiu mainnet ([Loopring]() e seu grande sucesso) são rollups zk - que em um alto nível envolvem o agrupamento de transferências em uma única transação. A maioria dos cálculos é feita fora da cadeia e aplicada por meio de provas de validade. Mover o levantamento de peso para fora da corrente permite um rendimento muito maior, mantém os custos mais baixos e - tão importante quanto - não sacrificar a segurança. Para um aplicativo que visa um grande número de usuários ativos, uma solução voltada para escalabilidade é o caminho a percorrer. 
 
-#### 5.1.2 SMART Swaps - one loan broken into 4 instruments
+#### 5.1.2 SMART Swaps - um empréstimo dividido em 4 instrumentos
 
-#### 5.1.3 SMART Prediction Hedge - Derivatives hedging fluctuations in prediction market odds.
+#### 5.1.3 SMART Prediction Hedge - Derivativos que protegem as flutuações nas probabilidades do mercado de previsão.
 
-#### 5.1.4 Market Driven Ratings Oracle - Trestle Point Index
+#### 5.1.4 Avaliações baseadas no mercado Oracle - Índice de Trestle Point
 
-Leveraging the wisdom of the crowd we can create an index that works as a ratings system providing an oracle mechanism that can be used by any platform in DeFi. A Moody’s for the decentralized future if you will. 
+Aproveitando a sabedoria da multidão, podemos criar um índice que funciona como um sistema de classificação, fornecendo um mecanismo de oráculo que pode ser usado por qualquer plataforma no DeFi. Um Moody's para o futuro descentralizado, se preferir.
 
-The risk assessment framework used to rate the tranches could be used to determine market sentiment. Driven by the markets that form behind the tokenized tranches, the ratings that determine the tranche formation would become a ‘fear gauge’. In short, if the riskier tranches are more popular then it could offer an early sign that the underlying components are less risky. Similarly, if the usage of the lower yield, safer tranches see an increase in volume, this could be an early warning sign that a vulnerability was found and an attack is potentially imminent. 
+A estrutura de avaliação de risco usada para classificar as fatias pode ser usada para determinar o sentimento do mercado. Impulsionados pelos mercados que se formam por trás das fatias tokenizadas, as classificações que determinam a formação da fatia se tornariam um "medidor de medo". Em suma, se as fatias mais arriscadas forem mais populares, isso pode oferecer um sinal inicial de que os componentes subjacentes são menos arriscados. Da mesma forma, se o uso do rendimento mais baixo e das fatias mais seguras tiver um aumento no volume, isso pode ser um sinal de alerta de que uma vulnerabilidade foi encontrada e um ataque é potencialmente iminente.
 
-## 6. Team
+## 6. Time
 
-### 6.1 Core Team
+### 6.1 Equipe Principal
 
-- **Troy Murray** - Troy runs RUDE_labs, a crypto centric artist company.  Troy has been exploring the many benefits that Blockchain can bring to media and artists since 2012 when he got bit by the Bitcoin bug and has been falling down the rabbit hole ever since.  Troy has worked in an around the Crypto space, devoting most of his time to Ethereum based projects.  Previously was working on SingularDTV/Breaker and snglsDAO trying to decentralize media and entertainment. Before that he was building a Title III equity crowd funding platform using Ethereum tokens in 2016.
-- **Tyler Ward** - Tyler runs Proof Systems, one of the largest marketing & UI/UX companies specializing in digital assets.  Tyler has worked with ConsenSys, Earn.com (who was acquired by Coinbase), FOAM, Dether, & Grid+, Centrality, Sylo (a decentralized messaging dApp with 300k users in NZ), NEAR Protocol, DARMA Capital, SingularDTV & the snglsDAO.  He started working in crypto in late 2016 & has bought and sold numerous ecommerce companies. 
+- **Troy Murray** - Troy dirige a [RUDE_labs](), uma empresa de artistas centrada em criptografia. Troy tem explorado os muitos benefícios que o Blockchain pode trazer para a mídia e artistas desde 2012, quando foi mordido pelo bug do Bitcoin e tem caído na toca do coelho desde então. Troy trabalhou em um espaço ao redor da Crypto, dedicando a maior parte de seu tempo a projetos baseados em Ethereum. Anteriormente, estava trabalhando no [SingularDTV]() / [Breaker]() e [snglsDAO]() tentando descentralizar a mídia e o entretenimento. Antes disso, ele estava construindo uma plataforma de financiamento coletivo de ações Título III usando tokens Ethereum em 2016.
+- **Tyler Ward** - Tyler dirige a [Proof Systems](https://proofsystems.io/), uma das maiores empresas de marketing e UI/UX especializada em ativos digitais. Tyler trabalhou com [ConsenSys](https://consensys.net/), [Earn.com](https://Earn.com) (que foi adquirida pela [Coinbase](https://coinbase.com)), [FOAM](https://foam.space/), [Dether](https://dether.io), & [Grid +](gridplus.io), [Centrality](), [Sylo]() (um dApp de mensagens descentralizado com 300 mil usuários na Nova Zelândia), [Protocolo NEAR](), [DARMA Capital](), [SingularDTV](https://singulardtv.com/) e o [snglsDAO](). Ele começou a trabalhar com criptografia no final de 2016 e comprou e vendeu várias empresas de comércio eletrônico.
 
-***Digital MOB - DigitalMob, a software development company experienced in building complex blockchain products, is taking the technical role in the product with 
-an extensive team of web3 developers, web and mobile developers, system architects, security experts and analysts.***
+**Digital MOB** - [DigitalMOB](https://digitalmob.ro/), uma empresa de desenvolvimento de software com experiência na construção de produtos de blockchain complexos, está assumindo a função técnica no produto com
+uma extensa equipe de desenvolvedores web3, desenvolvedores web e mobile, arquitetos de sistemas, especialistas em segurança e analistas.
 
-- **Milad Mostavi** - Milad co-founded and runs DigitalMOB. He is a seasoned software architect and in the past 5 years has worked with ConsenSys on a dozen of different projects. His contribution was decisive in successfully launching SingularDTV and Gnosis and orchestrated the development of SingularDTV’s entertainment decentralised ecosystem.
-- **Bogdan Gheorghe** - Bogdan considers himself a DeFi nerd - with a background in mathematics and data science, he spent the past 2 years at Alethio doing data analysis on blockchain data, using and researching almost all DeFi protocols in order to put a DeFi flavor to the Alethio product suite. Having also worked on development and sales for the Codefi DeFi data API, he was in contact with all of the major protocol teams. Now he is part of Digital MOB taking the product owner responsibility to build DeFi products.
-- **Dragos Rizescu** - Dragos is responsible for product development at Digital MOB. His background is full stack developer with a passion for building highly scalable user interfaces. In the past 5 years Dragos has been at the forefront of web3 technologies. He co-founded Treum.io, a blockchain supply chain solution that brings transparency, traceability and tradability to highly valuable physical assets. As a developer, he was part of the core team to launch projects such as Gnosis and SingularDTV and has advised and supported multiple projects in the ecosystem, most notably Alethio. He worked with ConsenSys to support the enterprise arm of the company, being part of the development team to deliver the first non-financial Ethereum use case, a track and trace solution of rock samples for BHP and a solution for decentralized energy markets with BP. 
+- **Milad Mostavi** - Milad é cofundador e dirige[DigitalMOB](https://digitalmob.ro/). Ele é um arquiteto de software experiente e, nos últimos 5 anos, trabalhou com a [ConsenSys](https://consensys.net/) em uma dúzia de projetos diferentes. Sua contribuição foi decisiva no lançamento bem-sucedido da [SingularDTV](https://singulardtv.com/) e da [Gnosis](https://gnosis.io/) e orquestrou o desenvolvimento do ecossistema descentralizado de entretenimento da [SingularDTV](https://singulardtv.com/).
+- **Bogdan Gheorghe** - Bogdan se considera um nerd de DeFi - com formação em matemática e ciência de dados, ele passou os últimos 2 anos na Alethio fazendo análise de dados em blockchain, usando e pesquisando quase todos os protocolos DeFi a fim de adicionar um sabor DeFi ao pacote de produtos [Alethio](https://aleth.io/) . Tendo também trabalhado no desenvolvimento e vendas da API de dados [Codefi](https://codefi.consensys.net/) DeFi, ele estava em contato com todas as principais equipes de protocolo. Agora ele faz parte da [Digital MOB](http://digitalmob.ro/), assumindo a responsabilidade do proprietário do produto para construir produtos DeFi.
+- **Dragos Rizescu** - Dragos é responsável pelo desenvolvimento de produtos na Digital MOB. Sua experiência de ser um desenvolvedor full stack com paixão por construir interfaces de usuário altamente escaláveis. Nos últimos 5 anos, Dragos tem estado na vanguarda das tecnologias web3. Ele cofundou a [Trem.io](https://Treum.io), uma solução de cadeia de suprimentos de blockchain que traz transparência, rastreabilidade e negociabilidade para ativos físicos de alto valor. Como desenvolvedor, ele fez parte da equipe principal para lançar projetos como [Gnosis](https://gnosis.io/) e [SingularDTV](https://singulardtv.com/) e aconselhou e apoiou vários projetos no ecossistema, mais notavelmente [Alethio](https://aleth.io/). Ele trabalhou com a [ConsenSys](https://consensys.net/) para apoiar o braço corporativo da empresa, fazendo parte da equipe de desenvolvimento para entregar o primeiro caso de uso não financeiro Ethereum, uma solução de rastreamento de amostras de rocha para [BHP](https://www.bhp.com/) e uma solução para mercados de energia descentralizados com [BP](https://www.bp.com/).
 
-### 6.2 Advisors/Technology Partners
+### 6.2 Consultores/Parceiros de Tecnologia
 
-- **Aaron McDonald** - Co-Founder and CEO Aaron is a 20 year tech industry veteran with experience leading teams across all aspects of a technology company managing portfolios over $1b in value. Aaron founded Centrality a leading $100m global venture studio supports a venture portfolio leveraging decentralised technology to create new market innovation and customer experiences. Aaron is a board member or advisor to more than a dozen venture companies around the world. In 2018 Aaron was awarded EY Entrepreneur of the Year for the technology and emerging industries category. 
-- **aptar** - the company behind ACTUS protocol -- whose goal is to provide the Ethereum community and the TradFi world with the tools necessary for fulfilling the vision of an open, interoperable and frictionless financial ecosystem. At its core, the ACTUS Protocol leverages the Algorithmic Contract Types Unified Standard (ACTUS) which is a formal representation of all kinds of financial contract types in terms of their financial obligations.
+- **Aaron McDonald** - O cofundador e CEO Aaron é um veterano da indústria de tecnologia com 20 anos de experiência em liderança de equipes em todos os aspectos de uma empresa de tecnologia que gerencia portfólios acima de $ 1 bilhão em valor. Aaron fundou a [Centrality](https://centrality.ai/), um estúdio de risco global líder de US $ 100 milhões que oferece suporte a um portfólio de risco que utiliza tecnologia descentralizada para criar novas inovações de mercado e experiências de clientes. Aaron é membro do conselho e consultor de mais de uma dúzia de empresas de risco em todo o mundo. Em 2018, Aaron foi premiado com o prêmio [EY Empreendedor](https://medium.com/centrality/aaron-mcdonald-named-category-winner-for-ey-entrepreneur-of-the-year-award-bfaab1f28755) do Ano na categoria de tecnologia e indústrias emergentes. 
+- **aptar** - a empresa por trás do [protocolo ACTUS](https://www.actus-protocol.io/) - cujo objetivo é fornecer à comunidade Ethereum e ao mundo TradFi as ferramentas necessárias para cumprir a visão de um ecossistema financeiro aberto, interoperável e sem atrito. Em sua essência, o [protocolo ACTUS](https://www.actus-protocol.io/) alavanca o Algorithmic Contract Types Unified Standard (ACTUS), que é uma representação formal de todos os tipos de contratos financeiros em termos de suas obrigações financeiras.
 
 ## 6.3 Development Team
-- 1 Project Lead 
-- 1 Software Architect, QA & DevOps
-- 2 Solidity developers
-- 2 Front end developers
-- 1 Back end developer
+
+- 1 Líder de projeto
+- 1 Arquiteto de software, controle de qualidade e DevOps
+- 2 Desenvolvedores Solidity
+- 2 Desenvolvedores de Front-end
+- 1 Desenvolvedor de Back-end
