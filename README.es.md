@@ -1,17 +1,17 @@
 ![](images/BB_Logo.png)
 
 # **Protocolo de riesgo tokenizado** 
-#### ***Un protocolo de derivados de fluctuaciones para cubrir la sensibilidad del rendimiento y el precio de mercado.***
+#### ***Un protocolo de derivados sobre activos fluctuantes para cubrir la sensibilidad del rendimiento y precio de mercado.***
 
 ## Resumen
 
-BarnBridge es una idea y un documento técnico concebido originalmente en el segundo trimestre de 2019. En ese momento, MakerDAO estaba comenzando a generar conciencia generalizada y a capturar la imaginación de lo que ahora se conoce como la comunidad DeFi, que son finanzas descentralizadas.  Más de un año después, con el 60% de la deuda global con un rendimiento menos que 1% y más de $15 billones de deuda global con tasas negativas, el capital sigue moviéndose hacia flujos de rendimiento de mayor riesgo.  Esto no es una coincidencia, ni una tendencia. Hablando históricamente, desde los tiempos bíblicos, el capital de trabajo persigue el rendimiento, asumiendo un riesgo relativamente igual.
+BarnBridge es una idea y un documento técnico concebido originalmente en el segundo trimestre de 2019. En ese momento, MakerDao estaba comenzando a popularizarse y a capturar la imaginación de la comunidad con lo que hoy se conoce como DeFi o Finanzas descentralizadas.  Más de un año después, con el 60% de la deuda global con un rendimiento menos que 1% y más de $15 billones de deuda global con tasas negativas, el capital sigue moviéndose hacia flujos de rendimiento de mayor riesgo.  Esto no es una coincidencia, ni una tendencia. Hablando históricamente, desde los tiempos bíblicos, el capital de trabajo persigue el rendimiento, asumiendo un riesgo relativamente igual.
 
 La aceleración de los niveles de deuda en todo el mundo estaba ocurriendo antes de la crisis financiera causada por Covid-19.  En el primer trimestre de 2020, vimos un aumento de la deuda global a $258 billones. Este número es 331% superior al PIB mundial, según el IIF, que representa a los bancos e instituciones financieras mundiales. Con la Reserva Federal operando bajo el pretexto de que tienen un suministro infinito de efectivo és un eufemismo "money printer go brrrr" uniéndose al léxico convencional, está bastante claro que estos números probablemente aumentarán y la emisión de deuda al PIB continuará acelerándose.
 
 El sistema financiero tradicional, al que se hace referencia como TradFi en este documento, está experimentando un repunte histórico en los niveles de deuda agregada, mientras que el rendimiento y las tasas de interés se desploman.  Mientras tanto, existe un sistema financiero descentralizado, denominado DeFi en este documento, que está floreciendo en la economía digital con activos digitales y criptomonedas.  Aunque los niveles de deuda, que se conoce como TVL, o valor total encerrado en protocolos financieros descentralizados, ha aumentado de cientos de millones el año pasado a miles de millones de dólares en 2020, el rendimiento de estos instrumentos sigue eclipsando las tarifas inferiores ofrecidas por productos comparables en el sistema TradFi heredado.  Por otro lado, debido a los supuestos niveles de riesgo más altos junto con las mayores eficiencias proporcionadas por las tecnologías de contratos inteligentes, el rendimiento porcentual anual (APY) es mucho más alto en los protocolos descentralizados que lo que se puede encontrar en el sistema financiero tradicional. El capital de trabajo sigue la tendencia histórica de seguir un rendimiento más alto, por lo que vemos que TVL se mueve a DeFi a un ritmo acelerado. Esta es una tendencia que continuará.
  
-La necesidad de que existan instrumentos TradFi conocidos en todo el ecosistema DeFi nunca ha sido más fuerte. **BarnBridge es una idea cuyo momento ha llegado.**
+La necesidad de recrear intrumentos financieros tradicionales (TradFi) dentro del ecosistema DeFi nunca ha sido más fuerte. Por esta razón,  **BarnBridge, es una idea cuyo tiempo ha llegado.**
 
 ## DeFi Primer: Rampas de riesgo y puentes TradFi
 
