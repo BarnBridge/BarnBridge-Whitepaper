@@ -1,253 +1,247 @@
 ![](images/BB_Logo.png)
 
 # **Tokenized Risk Protocol** 
-#### ***A fluctuations derivatives protocol for hedging yield sensitivity and market price.***
+#### ***利回り感度と市場価格をヘッジするための変動デリバティブプロトコル.***
 
-## Abstract
+## 概要
 
-BarnBridge is an idea & whitepaper originally conceived in Q2 2019.  At the time, MakerDAO was starting to garner mainstream awareness and capture the imagination of what is now known as the DeFi, or decentralized finance, community.  Over a year later, with 60% of Global debt yielding less than 1% & over $15 trillion of global debt yielding negative rates, capital continues moving into higher risk yield streams.  This is not a coincidence or a trend.  Historically speaking, going all the way back to biblical times, working capital chases yield, assuming relatively equal risk. 
+BarnBridgeは、もともと2019年第2四半期に考案されたアイデアとホワイトペーパーです。当時、MakerDAOは主流の認識を獲得し、現在DeFi（分散型金融）コミュニティとして知られているものの想像力を捉え始めていました。 1年以上後、世界の債務の60％が1％未満、15兆ドルを超える世界の債務がマイナスの利回りを生み出し、資本はリスクの高い利回りの流れに移行し続けています。これは偶然でもトレンドでもありません。歴史的に言えば、聖書の時代にさかのぼると、運転資本は比較的等しいリスクを想定して利回りを追いかけます. 
 
-The acceleration of debt levels, across the globe, was happening before the financial crisis caused by Covid-19.  In Q1 2020, we saw global debt increase to $258 trillion.  This number is 331% above global GDP, according to the IIF, which represents global banks and financial institutions.  With the Federal Reserve operating under the pretense that they have an infinite supply of cash and the euphemism “money printer go brrrr” joining the mainstream lexicon, it’s quite clear these numbers will likely increase and debt issuance to GDP will continue to accelerate. 
+Covid-19によって引き起こされた金融危機の前に、世界中で債務水準の加速が起こっていました。 2020年第1四半期には、世界の債務は258兆ドルに増加しました。世界の銀行や金融機関を代表するIIFによると、この数字は世界のGDPを331％上回っています。連邦準備制度は、現金が無限に供給されているというふりをして運営されており、婉曲表現の「マネープリンターはbrrrr」が主流の用語集に加わっています。これらの数が増える可能性があり、GDPへの債務発行が加速し続けることは明らかです。. 
 
-The traditional financial system, referred to as TradFi in this paper, is experiencing a historic uptick in aggregate debt levels while yield and interest rates plummet.  Meanwhile, there is a decentralized financial system, referred to as DeFi in this paper, burgeoning in the digital economy with digital assets and cryptocurrencies.  While debt levels, which is referred to as TVL, or total value locked in decentralized financial protocols, has increased from hundreds of millions last year, to billions of dollars in 2020, yield on these instruments continues to dwarf the menial rates offered by comparable products in the legacy TradFi system.  Conversely, due to assumed higher risk levels coupled with higher efficiencies provided by smart contract technologies, annual percentage yield (APY) is far higher on decentralized protocols than what can be found in the traditional financial system.  Working capital is following the historical trend of following higher yield which is why we are seeing TVL moving to DeFi at an accelerating rate. This is a trend that will continue. 
+この論文でTradFiと呼ばれる従来の金融システムは、利回りと金利が急落する一方で、総債務レベルの歴史的な上昇を経験しています。一方、本書ではDeFiと呼ばれる分散型の金融システムがあり、デジタル資産と暗号通貨でデジタル経済に急成長しています。 TVL、または分散型金融プロトコルに固定された総価値と呼ばれる債務水準は、昨年の数億ドルから2020年には数十億ドルに増加しましたが、これらの商品の利回りは、同等の商品が提供する平均金利を引き続き下回っています。従来のTradFiシステムで。逆に、スマートコントラクトテクノロジーによって提供されるより高い効率と相まって、より高いリスクレベルが想定されるため、年利（APY）は、従来の金融システムで見られるものよりも分散型プロトコルではるかに高くなります。運転資本は、より高い利回りに従うという歴史的な傾向に従っています。そのため、TVLは加速してDeFiに移行しています。これは今後も続く傾向です。
 
-The need for familiar TradFi instruments to exist throughout the DeFi ecosystem has never been stronger.  **BarnBridge is an idea whose time has come.** 
+使い慣れたTradFi機器がDeFiエコシステム全体に存在する必要性はかつてないほど高まっています。  **BarnBridgeは、その時が来たアイデアです。** 
 
-## DeFi Primer: Risk Ramps and TradFi Bridges
+## DeFi入門書: リスクランプとTradFiブリッジ
 
-The yield products in the decentralized markets which are yielding higher APY than yield products in traditional markets are currently crypto backed loans.  Instead of selling crypto for fiat, borrowers are staking digital assets and receiving digital assets in return.  While these loans have mostly been short term loans to traders, the system has proven to be efficient & ripe for expansion.  These efficiencies will inevitably attract higher value, longer duration loans to decentralized ledgers.   The efficiencies referenced are enabled by smart contracts' ability to hold digital collateral until both sides of the transaction fulfill their obligations algorithmically.  The reduction of custody, settlement, and escrow - labor-intensive, costly actions within the legacy system - to algorithmic actions is reducing the rent charged by the labor to perform these actions.  These efficiencies, coupled with the perception of higher risk, are why the yields are higher on decentralized systems.  As risk in DeFi converges on risk levels perceived in TradFi, by the nature of the loans moving from crypto backed loans to traders to collateralized mortgage loans to homeowners, for instance, the efficiency of smart contracts will continue to offer higher yield on decentralized systems than traditional centralized systems. 
+従来の市場の利回り商品よりも高いAPYを生み出している分散型市場の利回り商品は、現在、暗号通貨で裏付けられたローンです。借り手は、暗号通貨をフラットに販売する代わりに、デジタル資産を賭けて、その見返りにデジタル資産を受け取っています。これらのローンは主にトレーダーへの短期ローンでしたが、システムは効率的で拡張に適していることが証明されています。これらの効率性は、必然的に、分散型台帳へのより価値の高い、より長期のローンを引き付けるでしょう。参照される効率は、トランザクションの両側がアルゴリズムで義務を果たすまでデジタル担保を保持するスマートコントラクトの機能によって可能になります。保管、決済、およびエスクロー（レガシーシステム内の労働集約的で費用のかかるアクション）をアルゴリズムアクションに削減することで、これらのアクションを実行するために労働者が請求する家賃が削減されます。これらの効率性は、より高いリスクの認識と相まって、分散型システムで歩留まりが高くなる理由です。 DeFiのリスクは、TradFiで認識されるリスクレベルに収束するため、たとえば、トレーダーへの暗号通貨担保ローンから住宅所有者への担保付き住宅ローンへのローンの性質により、スマートコントラクトの効率は分散システムでより高い利回りを提供し続けます従来の集中型システム。
 
-What’s more, the efficiency of smart contracts and DAO technologies allows for far more complex derivative instruments to be built & provides a level of transparency and security unfathomable to current financial networks.
+さらに、スマートコントラクトとDAOテクノロジーの効率性により、はるかに複雑なデリバティブ商品を構築でき、現在の金融ネットワークでは計り知れないレベルの透明性とセキュリティを提供します。
 
-All of these efficiencies are currently stemmed and built off of crypto backed loans.
+これらの効率性はすべて、現在、暗号通貨に裏打ちされたローンに基づいて構築されています.
 
 ![](images/1newnew.png)
 
-As previously discussed, these efficiencies should extrapolate to mortgage debt and corporate debt moving to decentralized platforms on a longer timeline. This should also encourage more complex derivatives based on debt and yield to move to decentralized platforms.  We will be able to structure far more complex derivatives and track them with far greater efficiency and transparency than possible before the innovations of blockchain, cryptocurrency, smart contracts, and decentralized autonomous organization technology were realized.  $244 trillion in debt and yield based derivatives will continue to move to more efficient technologies over time.  The migration of yield and yield-based derivatives from less efficient centralized financial systems to more efficient decentralized financial systems will be one of the largest movements of wealth in human history.  **BarnBridge exists to help facilitate this transition and make the decentralized financial system more efficient, risk-flexible, and attractive to a wider range of participants.**
+前に説明したように、これらの効率は、より長いタイムラインで分散型プラットフォームに移行する住宅ローン債務と社債に外挿する必要があります。これはまた、債務と利回りに基づくより複雑なデリバティブが分散型プラットフォームに移行することを奨励するはずです。ブロックチェーン、暗号通貨、スマートコントラクト、分散型自律組織テクノロジーの革新が実現する前に、はるかに複雑なデリバティブを構築し、可能な限りはるかに高い効率と透明性で追跡できるようになります。 244兆ドルの負債および利回りベースのデリバティブは、今後もより効率的なテクノロジーに移行し続けます。利回りおよび利回りベースのデリバティブの効率の低い集中型金融システムからより効率的な分散型金融システムへの移行は、人類史上最大の富の動きの1つとなるでしょう。 **BarnBridgeは、この移行を促進し、分散型金融システムをより効率的で、リスクに柔軟に対応し、幅広い参加者にとって魅力的なものにするために存在します.**
 
-There is a massive market for people wanting to get into crypto who (1) don’t want to bite off the entire risk curve of owning, lending, or receiving an entire digital asset & (2) will never take the time to use a decentralized autonomous organization (DAO) to create a smart contract which algorithmically scripts both sides of the loan or agreement. Over 99.9% of global debt is still structured via traditional markets and is starving for yield.  Conversely, more advanced financial companies have no risk tolerances.  This allows for different structures at each point of the yield curve with the riskiest (likely hedge funds) wanting to put the least money down with the highest return for their bet/hedge.  On the contrary, more conservative investors are often willing to give up a large portion of upside opportunity in order to access safer instruments.  “Riskless” products, as tradFi describes them,  are not currently offered in the decentralized financial ecosystem. The opportunity to structure these types of instruments will allow for more risk averse investors in the traditional markets to move into the decentralized markets. 
+（1）デジタル資産全体を所有、貸与、または受け取るというリスク曲線全体を食い止めたくない、（2）時間をかけて使用することは決してない、暗号通貨に参入したい人々のための巨大な市場があります分散型自律組織（DAO）は、ローンまたは契約の両側をアルゴリズムでスクリプト化するスマートコントラクトを作成します。世界の債務の99.9％以上は依然として伝統的な市場を介して構成されており、利回りに飢えています。逆に、より先進的な金融会社にはリスク許容度がありません。これにより、イールドカーブの各ポイントでさまざまな構造が可能になり、最もリスクの高い（ヘッジファンドの可能性が高い）が、賭け/ヘッジのリターンを最大にして最小の資金を投じることができます。それどころか、より保守的な投資家は、より安全な商品にアクセスするために、上向きの機会の大部分をあきらめることをいとわないことがよくあります。 tradFiが説明しているように、「リスクのない」商品は現在、分散型の金融エコシステムでは提供されていません。これらのタイプの商品を構築する機会は、従来の市場でよりリスクを嫌う投資家が分散型市場に移動することを可能にします。
 
 ![](images/image6.png)
 
-In the shorter term phase (DeFi) & medium term phase (Proof of Stake) risk ramps will continue to create markets and industries for traditional investment firms who want to “get off zero” or “get above 1%.”  As this happens, more and more types of loans will move to decentralized ledgers.  In the long run, and partially through this process, lenders and borrowers will understand why decentralized and trustless intermediaries are superior and less costly than the current 3rd party intermediaries. As this happens, larger portions of the $244 trillion in global debt will move to the chain, creating the opportunity for more yield, more risk ramps, and higher CD-like (collateralized debt) products for fiat and crypto depositors of the new age commercial banks & financial markets. 
+（1）デジタル資産全体を所有、貸与、または受け取るというリスク曲線全体を食い止めたくない、（2）時間をかけて使用することは決してない、暗号通貨に参入したい人々のための巨大な市場があります分散型自律組織（DAO）は、ローンまたは契約の両側をアルゴリズムでスクリプト化するスマートコントラクトを作成します。世界の債務の99.9％以上は依然として伝統的な市場を介して構成されており、利回りに飢えています。逆に、より先進的な金融会社にはリスク許容度がありません。これにより、イールドカーブの各ポイントでさまざまな構造が可能になり、最もリスクの高い（ヘッジファンドの可能性が高い）が、賭け/ヘッジのリターンを最大にして最小の資金を投じることができます。それどころか、より保守的な投資家は、より安全な商品にアクセスするために、上向きの機会の大部分をあきらめることをいとわないことがよくあります。 tradFiが説明しているように、「リスクのない」商品は現在、分散型の金融エコシステムでは提供されていません。これらのタイプの商品を構築する機会は、従来の市場でよりリスクを嫌う投資家が分散型市場に移動することを可能にします。 
 
-## 1. Fluctuation Derivatives Protocol
+## 1.変動派生プロトコル
 
-BarnBridge is the first fluctuation derivative protocol.  Before the advent of smart contract technology it was close to impossible to track & attribute yield to a divided allotment of capital, trustlessly & transparently, to provide hedges against any and all fluctuations.  Conceptually, you can build derivative products from any type of market driven fluctuation to hedge various risks.  Examples include, but are not limited to, interest rate sensitivity, fluctuations in underlying market price, fluctuations in predictive market odds, fluctuations in default rates across mortgages, fluctuations in commodity prices, and a seemingly infinite number of market based fluctuations to hedge a particular position. 
+BarnBridgeは、最初の変動微分プロトコルです。スマートコントラクトテクノロジーが登場する前は、あらゆる変動に対するヘッジを提供するために、資本の分割された割り当てに利回りを追跡して帰属させることはほぼ不可能でした。概念的には、さまざまなリスクをヘッジするために、あらゆるタイプの市場主導の変動からデリバティブ商品を構築できます。例としては、金利感応度、原資産市場価格の変動、予測市場オッズの変動、住宅ローン全体のデフォルト率の変動、商品価格の変動、および特定のヘッジを行うための一見無限の数の市場ベースの変動が含まれますが、これらに限定されません。ポジション。 
 
-We plan to create the first cross platform derivatives protocol for any and all fluctuations.  To start, we will focus on yield sensitivity & market price.  Downstream, we plan to introduce a far wider variety of hedges against fluctuations in the decentralized ecosystem.  BarnBridge aims to be platform and asset agnostic. 
+私たちは、あらゆる変動に対応する最初のクロスプラットフォーム派生プロトコルを作成する予定です。まず、利回り感応度と市場価格に焦点を当てます。下流では、分散型エコシステムの変動に対して、はるかに多様なヘッジを導入する予定です。 BarnBridgeは、プラットフォームや資産にとらわれないことを目指しています。 
 
-You can reduce the risk of digital assets & digital asset yield sensitivity by breaking them into essentially infinite, separate, dollar-denominated chunks, or tranches, and building derivatives off these tranches.  BarnBridge aims to smooth out the risk curve and offer layered risk management to both DeFi & tradFi investors by building more efficient debt & yield based derivatives. 
+デジタル資産とデジタル資産の利回りの感応度のリスクは、それらを本質的に無限の、別々の、ドル建てのチャンク、またはトランシェに分割し、これらのトランシェからデリバティブを構築することによって減らすことができます。 BarnBridgeは、より効率的な負債と利回りに基づくデリバティブを構築することにより、リスク曲線を滑らかにし、DeFiとtradFiの両方の投資家に階層化されたリスク管理を提供することを目指しています。
 
-## 2. Initial Product Offerings
+## 2. 初期の製品提供
+SMART $BONDS - **S **構造化** M**アルケット** A**調整済み** R**リスク** T**牧場
 
-SMART $BONDS - **S**tructured **M**arket **A**djusted **R**isk **T**ranches
+### 2.1 スマートイールドボンド 
 
-### 2.1 SMART Yield Bonds 
+債務ベースのデリバティブを使用した金利ボラティリティリスクの軽減。
 
-Interest rate volatility risk mitigation using debt based derivatives.
+現在、分散型金融システムは主に変動金利の年金を提供しています。ただし、利回りを固定金利に構造化する機能は、返済または債券の満期のあるロックされた担保、および満期のない固定金利の利回りまたは年金の形で提供されます。これが斬新なアイデアであるとは考えていません。当然、これらのタイプの製品は時間の経過とともにDeFiに導入されると考えています。ただし、スマートコントラクトに固定利回りが存在することで構築および実装できるファイナンシャルプランニングのデリバティブの種類と複雑さの軽減は、従来の金融市場に打撃を与えるでしょう。
 
-Currently, the decentralized financial system is primarily offering variable rate annuities.  However, the ability to structure yield into fixed rates will come in the form of locked collateral with a maturity on repayments, or bonds, as well as fixed rate yields with no maturity, or annuities. We don’t believe this to be a novel idea & we believe naturally that these types of products will come to DeFi over time. However, the types of derivatives & complexity reduction in financial planning you’ll be able to structure and implement with the existence of fixed yield in smart contracts will be mind blowing to traditional financial markets.
+分散型金融商品は、信頼できない金融業界が発揮できる力を示しています。 MakerDAO、Synthetix、AAVE、Compound、CurveなどのDeFiスペースの強力なプロジェクトは、簿記係、エスクロー、さまざまなオーバーヘッドをアルゴリズム、信頼できないオラクル、分散型台帳。さまざまな市場主導の利回りが多数の分散型プラットフォームで見られますが、サービスを提供し、さまざまな分散型プロトコルをすべてまとめて、正規化されたリスク曲線とリスク軽減のためのデリバティブを可能にするものはありません。
 
-Decentralized financial instruments are showcasing the power that a trustless financial industry can wield.  Powerhouse projects in the DeFi space like MakerDAO, Synthetix, AAVE, Compound, Curve, and others are producing yields for users that have none of the constraints and rent seeking of tradFi instruments by replacing bookkeepers, escrow and various overhead with algorithms, trustless oracles, and decentralized ledgers. Different market driven yields can be found on numerous decentralized platforms, but there is nothing out there that services & pulls together all of the different decentralized protocols & allows for a normalized risk curve and derivatives for risk mitigation.
+さらに、現在のDeFi市場では、貸付プロトコル全体の効率性は存在しません。多数のプロトコルから利回りを引き出し、それらを高利回りバケットと低利回りバケットにトランシェする機能は、従来の金融市場には存在しますが、許容可能なレベルの流動性を前提とすると、分散型金融市場ではより効率的です。
 
-Furthermore, efficiencies across lending protocols are non-existent in the current DeFi markets. The ability to pull yield from numerous protocols and tranche them into higher and lower yield buckets is something that exists in traditional financial markets but is more efficient in decentralized financial markets, assuming an acceptable level of liquidity. 
+私たちの最初の構造化により、DeFiユーザーは固定利回りにアクセスできるだけでなく、エコシステム全体の多数のプロトコルからの利回りをプールして、より効率的な市場を作成し、業界全体の利回り曲線を滑らかにします。 
 
-Our first structuring will not only allow DeFi users to get access to fixed yield but also pools yield from numerous protocols across the ecosystem creating a more efficient market, again, smoothing out the yield curve across the entire industry. 
+単一の貸付プロトコルがプラットフォーム上の債券に関する概念を導入することを期待していますが、債券に対するクロスプロトコルベースのアプローチの主な違いは、資産の分散とプラットフォームのリスクの分散です。利息を生み出すデジタル資産を多数の貸付プラットフォームにアルゴリズム的にプールすることで、リスクを分散し、業界のリスク曲線を正規化することで、効率を高めます。 BarnBridgeはネイティブプラットフォームから直接資金を貸し出すのではなく、業界全体で貸し出しをプールするため、プラットフォームにとらわれず、デジタルアセットにとらわれず、より複雑な構造化と債券格付けシステムを下流で実現できます。
 
-While we expect singular lending protocols to introduce concepts around fixed income on their platform, a major differentiation of a cross protocol based approach to fixed income is the diversified assets & diversified platform risk. By algorithmically pooling interest generating digital assets on a number of lending platforms, we will create greater efficiencies by spreading risk & normalizing the industry risk curve. Since BarnBridge does not lend money directly off a native platform, & instead pools lending across the industry, it allows us to be platform agnostic & digital asset agnostic which in turn will allow for more complex structuring and bond rating systems downstream.
-
-**Risk and Loss Scenarios.**
+**リスクと損失のシナリオ。**
 
 ![](images/1abb1.png)
 
-**Scenario 1:**
+**シナリオ1:**
 
 ![](images/Group899.png)
 
-**Scenario 2:**
+**シナリオ2:**
 
 ![](images/Group1031.png)
 
-Pooled collateral would be deposited into lending protocols or yield generating contracts, and the yield will be bundled up into different tranches and tokenized. So you could buy exposure to the most senior tranche and get a lower yield but have a much lower risk profile. SMART bonds are a way to buy and sell risk on yield with all of the pricing driven purely by the market.
+プールされた担保は、貸付プロトコルまたは利回り生成契約に預け入れられ、利回りはさまざまなトランシェにまとめられ、トークン化されます。したがって、最もシニアのトランシェへのエクスポージャーを購入して、より低い利回りを得ることができますが、リスクプロファイルははるかに低くなります。 SMART債券は、すべての価格設定が純粋に市場によって決定される、利回りのリスクを売買する方法です。
 
-[Reference financial structuring can be found here.](https://docs.google.com/spreadsheets/d/157p5D_E_j_zYwc_QzHmVeJH_L64HubkXDPdMwVUkypY/edit#gid=2024388043)
+[参照財務構造はここにあります。](https://docs.google.com/spreadsheets/d/157p5D_E_j_zYwc_QzHmVeJH_L64HubkXDPdMwVUkypY/edit#gid=2024388043)
 
-### 2.2 SMART Alpha Bonds 
+### 2.2 スマートアルファボンド 
 
-Market Price Exposure Risk Mitigation using tranched volatility derivatives.
+トランシェボラティリティデリバティブを使用した市場価格エクスポージャーリスクの軽減。
 
-The SMART Alpha bonds will not be structured via traditional yield tranches but instead with various levels of market price exposure, which we will call risk ramps.  The idea is that every bucket or tranche of price exposure does not need to be flat across the entire risk curve, meaning the first $100 of price exposure does not need to deserve the same upside and downside volatility.   **This is similar to having fractional ownership but with different risk/reward for the fractions.**
+SMART Alpha債券は、従来の利回りトランシェではなく、さまざまなレベルの市場価格エクスポージャーで構成されます。これをリスクランプと呼びます。アイデアは、価格エクスポージャーのすべてのバケットまたはトランシェがリスク曲線全体にわたってフラットである必要はないということです。つまり、価格エクスポージャーの最初の100ドルは、同じ上下のボラティリティに値する必要はありません。   **これは、分割所有権を持つことに似ていますが、分割のリスク/報酬が異なります。**
 
-For example, if the current price of 1 ETH is expected to be $1000, and moves to $900, the first tranche (the riskiest tranches) takes a higher percentage of the loss.  Conversely, if the current price of 1 ETH is expected to be $1000, and moves to $1100, the first tranche (the riskiest tranches) takes a higher percentage of the gain.  
+たとえば、1ETHの現在の価格が$ 1000であると予想され、$ 900に移動した場合、最初のトランシェ（最もリスクの高いトランシェ）が損失のより高い割合を占めます。逆に、1ETHの現在の価格が$ 1000であると予想され、$ 1100に移動した場合、最初のトランシェ（最もリスクの高いトランシェ）は利益のより高い割合を取ります.  
 
-How these gains and losses are measured & allocated across tranches can be done algorithmically with smart contracts.  Each tranche can be traded as a unique digital asset.  For example jETH (a junior tranche of ETH price exposure), mETH (a mezzanine tranche of ETH price exposure, and sETH (a senior tranche of ETH price exposure). The tranches will exist as risk ramps in which users of various risk appetites can gain price exposure to digital assets.
+これらの利益と損失をどのように測定し、トランシェ全体に割り当てるかは、スマートコントラクトを使用してアルゴリズムで行うことができます。各トランシェは、固有のデジタル資産として取引できます。たとえば、jETH（ETH価格エクスポージャーのジュニアトランシェ）、mETH（ETH価格エクスポージャーのメザニントランシェ）、sETH（ETH価格エクスポージャーのシニアトランシェ）。トランシェは、さまざまなリスク欲求のユーザーができるリスクランプとして存在します。デジタル資産への価格エクスポージャーを獲得します。
 
-The SMART Alpha product will make way to build tranches of single asset and multi-asset pools that generate yield and where lower risk ramps get lower returns when the underlying assets rise & lower losses when they drop. However, we can build this without needing yield attached at all. The opportunity for downstream opportunities to use various risk ramps for differing collateral obligations is a logical progression these risk ramps will create.
-
-#### 2.3 UI/UX Interface (Light) 
+SMART Alpha製品は、利回りを生み出し、原資産が上昇するとリスクランプが低くなり、収益が低下する場合に損失が少なくなる単一資産および複数資産プールのトランシェを構築する方法を提供します。ただし、歩留まりをまったく付けなくてもこれを構築できます。さまざまな担保義務のためにさまざまなリスクランプを使用する下流の機会の機会は、これらのリスクランプが生み出す論理的な進展です。
+#### 2.3 UI / UXインターフェース（ライト） 
 
 ![](images/image10.png)
 
-#### 2.4 UI/UX Interface (Dark) 
-
+#### 2.4 UI / UXインターフェース（ダーク）
 ![](images/image13.png)
 
-## 3. Token - $BOND
+## 3. トークン-$ BOND
+BONDはERC-20トークンです。これは、システムに参加するために使用され、ガバナンスモジュールが起動されたときのガバナンストークンとして使用されます。 $ BONDトークンは、ERC-20標準に準拠しているため、あらゆる取引所で取引可能であり、あらゆるウォレットに保存できます。これにより、世界中の誰もがアクセスできるようになります。
 
-BOND is an ERC-20 token. It will be used to stake in the system, and as a governance token when the governance module is launched. As it conforms to the ERC-20 standard, the $BOND token is tradeable on any exchange and storable on any wallet - allowing anyone in the world to access it.
+### 3.1 分布
 
-### 3.1 Distribution
-
-The distribution breakdown is designed to facilitate the most decentralized protocol and make sure power doesn’t reside in the hands of a few.
-
+ディストリビューションの内訳は、最も分散化されたプロトコルを容易にし、電力が少数の人の手に渡らないようにするように設計されています。
 ![](images/TokenDistribution.png)
 
-#### 3.1.1 Fair Vesting
+#### 3.1.1 公正な権利確定
 
-The vesting schedule is designed so that there is not a giant cliff waiting over users heads at a specific point.  The tokens allocated to the Founders, Seed Investors, and Advisors are locked in a smart contract that releases the tokens on a weekly basis over a two year period.  The vesting period starts with the launch of the Yield Farming mechanism.  This breaks down as such:
-- Total amount of $BOND tokens: 10,000,000
-- Percent of $BOND tokens allocated to Founders, Seed Investors, & Advisors: 22%
-- Total amount of $BOND tokens vested: 2,200,000
-- Length of vesting: 100 weeks
-- Release schedule: 1 week
-- Amount of $BOND tokens released each week: 22,000
-- Percent of $BOND tokens released each week: 0.22%
+権利確定スケジュールは、特定のポイントでユーザーの頭を待っている巨大な崖がないように設計されています。ファウンダー、シードインベスター、アドバイザーに割り当てられたトークンは、2年間にわたって毎週トークンをリリースするスマートコントラクトにロックされています。権利確定期間は、収穫農業メカニズムの開始から始まります。これは次のように分類されます。
+- $ BONDトークンの合計額：10,000,000
+- 創設者、シード投資家、およびアドバイザーに割り当てられた$ BONDトークンの割合：22％
+- 権利が確定した$ BONDトークンの合計額：2,200,000
+- 権利確定期間：100週間
+- リリーススケジュール：1週間
+- 毎週リリースされる$ BONDトークンの量：22,000
+- 毎週リリースされる$ BONDトークンの割合：0.22％
 
-### 3.2 Governance
+### 3.2ガバナンス
 
-The $BOND token will be the system’s governance token, empowering $BOND holders to vote on updates to the platform. Combining governance mechanisms and incentivizing holders, it will serve as a means to align the different stakeholders in the system.  $BOND will also serve as a security and policy management medium. Decentralized, automated governance, that incentivizes participants and aims for security, sustainability, and participant welfare is key to a DeFi protocol’s success. 
+$ BONDトークンはシステムのガバナンストークンになり、$ BOND保有者がプラットフォームの更新に投票できるようにします。ガバナンスメカニズムとインセンティブ保有者を組み合わせることで、システム内のさまざまな利害関係者を調整する手段として機能します。 $ BONDは、セキュリティおよびポリシー管理の媒体としても機能します。参加者にインセンティブを与え、セキュリティ、持続可能性、参加者の福祉を目指す分散型の自動化されたガバナンスは、DeFiプロトコルの成功の鍵です。
 
-#### 3.2.1 DAO First Approach
+#### 3.2.1 DAOファーストアプローチ
 
-BarnBridge is taking a “DAO First Approach” to spinning up the protocol, choosing to use decentralized tools from the start to achieve our final goal of complete decentralization and having a flexible smart contract system able to add / upgrade / remove functionality all based on DAO proposals. There will be an incubator DAO called Launch DAO & the final protocol DAO called BarnBridge DAO.
-
+BarnBridgeは、プロトコルをスピンアップするために「DAOファーストアプローチ」を採用しており、完全な分散化という最終目標を達成するために最初から分散型ツールを使用することを選択し、すべてDAOに基づいて機能を追加/アップグレード/削除できる柔軟なスマートコントラクトシステムを備えています提案。 LaunchDAOと呼ばれるインキュベーターDAOとBarnBridgeDAOと呼ばれる最終プロトコルDAOがあります。
 ![](images/DAOFirst12.png)
 
-#### **Launch DAO**
+#### **DAOを起動します**
 
-Starting with Launch DAO, the Founders, Seeders, and Advisors are using an Aragon DAO Company Template which uses transferable tokens to represent ownership stake.  Decisions are made based on stake-weighted voting. The native token of the Launch DAO will be $BBVOTE. The Founders will receive 45%, Seeders will receive 45%, and Advisors will get 10%.  The support will be set to 62%, which means more than 62% of the voting shares need to be present at a vote.  The minimum will be set to 62%, meaning for a proposal to be passed it must be approved by at least 62%.  
+Launch DAO以降、創設者、シーダー、アドバイザーは、所有権を表すために譲渡可能なトークンを使用するAragonDAO会社テンプレートを使用しています。決定は、ステーク加重投票に基づいて行われます。 LaunchDAOのネイティブトークンは$ BBVOTEになります。創設者は45％、シーダーは45％、アドバイザーは10％を受け取ります。サポートは62％に設定されます。これは、議決権付き株式の62％以上が投票に参加する必要があることを意味します。最小値は62％に設定されます。つまり、提案が合格するには、少なくとも62％の承認が必要です。  
 
-The funds from the seeders and the initial supply of the $BOND token will be kept in the Launch DAO treasury.  Launch DAO will also have Aragon Agent activated and we will possibly develop integrations for Uniswap pool allocation and Balancer pool allocation control directly into the DAO. 
+シーダーからの資金と$ BONDトークンの初期供給は、LaunchDAO財務省に保管されます。 DAOの起動では、Aragon Agentもアクティブ化され、Uniswapプール割り当てとBalancerプール割り当て制御の統合をDAOに直接開発する可能性があります。 
 
 ![](images/21.png)
 
 #### **BarnBridge DAO**
 
-BarnBridge DAO will be the DAO that is controlled by the $BOND community.  The BarnBridge DAO will have full control over the protocol and the features that are built into it.  We are doing this through the use of the the [Diamond Standard (EIP-2535)](https://eips.ethereum.org/EIPS/eip-2535), which allows us to upgrade the protocol without having all the members remove their tokens and switch to a version 2 of the protocol that time arises.  The BarnBridge DAO will have full control over the Diamond which provides amazing flexibility in the WEB3 space.  We expand on this in the Smart Contracts section (4.2.1).  
+BarnBridge DAOは、$ BONDコミュニティによって制御されるDAOになります。 BarnBridge DAOは、プロトコルとそれに組み込まれている機能を完全に制御できます。私たちはを使用してこれを行っています [Diamond Standard (EIP-2535)](https://eips.ethereum.org/EIPS/eip-2535),これにより、すべてのメンバーがトークンを削除せずにプロトコルをアップグレードし、その時点でプロトコルのバージョン2に切り替えることができます。 BarnBridge DAOは、WEB3スペースに驚くべき柔軟性を提供するDiamondを完全に制御します。これについては、スマートコントラクトセクション（4.2.1）で詳しく説明します。
 
-## 4. Scope of Work
+## 4. 作業範囲
 
-### 4.1 Development Introduction
+### 4.1 開発の紹介
+次のセクションでは、製品のMVP /ベータリリースについて説明します。これは、製品開発の方向性を通知し、データの収集を開始し、製品が市場のニーズに適合していることを確認するのに役立ちます。
 
-The following section describes the MVP / Beta release of the product, which will help inform the product development direction, allow us to start collecting data and ensure the product is aligned with what the market needs.
+以前のプールが表示され、コミュニティがいつどのように参加するかについて十分な情報に基づいた決定を下せるように、ユーザーに優れたユーザーエクスペリエンスを提供することを決意しています。ただし、コミュニティが付随する分析の一部を構築することを期待しています。コア製品。この開発により、製品に対する洞察がさらに深まるため、歓迎します。
 
-We are determined to provide a great user experience for users, making sure previous pools are visible and our community can make a well informed decision about when and how to join in. However, we expect the community to build some of the analytics which will accompany the core product.  We welcome this development as it will provide more insight into the product.
+### 4.2 コンポーネントとタイムライン
 
-### 4.2 Components & Timelines
+#### **DAOを起動します**
 
-#### **Launch DAO**
+Aragon DAO Company Templateに基づくコミュニティ契約を使用して、コアDAOのベースを作成します。契約はすでに長い間生産されているので、私たちはそれらが提供する機能と特徴を信頼しています。 
 
-We will use the community contracts based on Aragon DAO Company Template to create the base of the core DAO. Because the contracts have already been in production for so long, we trust the functionality and features they provide. 
-
-We expect to do minimum changes to the initial source code. However, we will create tests for our most common use cases, make sure the user flow makes sense and the users have an easy UX to join in the DAO.
-- Estimated time to build, test and launch: **Completed**
+最初のソースコードには最小限の変更を加える予定です。ただし、最も一般的なユースケースのテストを作成し、ユーザーフローが理にかなっており、ユーザーが簡単にUXをDAOに参加できることを確認します。
+- 構築、テスト、起動にかかる推定時間: **完了**
 
 #### **BarnBridge DAO**
 
-This subsequent DAO might need to have multiple specific functionality that the Aragon DAO Company Template does not already have. This is why we will likely choose an upgradable smart contract system (such as [EIP-2535](https://eips.ethereum.org/EIPS/eip-2535)), which will allow us to add, remove and upgrade functionality as the community sees fit.
+この後続のDAOには、Aragon DAO CompanyTemplateにはまだない複数の特定の機能が必要になる場合があります。これが、アップグレード可能なスマートコントラクトシステム（ [EIP-2535](https://eips.ethereum.org/EIPS/eip-2535)), これにより、コミュニティが適切と考える機能を追加、削除、およびアップグレードできるようになります。
 
-The BarnBridge DAO will become the core component of the BarnBridge Platform because it will be able to make decisions in a decentralized manner that will be able to enforce the best actions for the wellness of the community.
-- Estimated time to build, test and launch on testnet: **6 weeks**
+BarnBridge DAOは、コミュニティの健康のために最善の行動をとることができる分散型の方法で意思決定を行うことができるため、BarnBridgeプラットフォームのコアコンポーネントになります。.
+- testnetでのビルド、テスト、起動の推定時間：**6週間**
 
-An additional external audit will push the launch on the mainnet by approximately **4 weeks.**  More details in 4.2.2 on Audits & Simulations. 
+追加の外部監査により、メインネットでの立ち上げが約 **4週間** 延期されます。詳細については、監査とシミュレーションに関する4.2.2を参照してください。
+#### **スマートイールドボンド**
 
-#### **SMART Yield Bonds**
+DAOのセットアップ全体は、SMART YieldBondsへの道を固めるために行われます。これは、BarnBridgeプラットフォームの最初のDeFi製品です。投票DAOは、このコアメカニズムを利用したい場合、誰でも参加できるプールを展開できるようになります。  
 
-The whole DAO setup is done to solidify the path towards SMART Yield Bonds.  This is the first DeFi product of the BarnBridge Platform. The Voting DAO will be able to deploy pools that anyone can join if they want to take advantage of this core mechanic.  
+DAOがシステム全体を制御するため、つまりコミュニティがシステムの使用方法を決定するため、このDeFi製品のパラメータの一部はコミュニティによって決定されます。他のパラメータのいくつかは、分散型オラクルシステム（Chainlinkなど）によって決定されます。このシステムは、プールを有効にするために、適切で実際の達成可能なパラメータを設定する必要があります。
 
-Because the DAO’s control the whole system, which means the community decides how the system will be used, the parameters for this DeFi product will be in part determined by the community.  Some of the other parameters will be decided by the decentralized oracle system (such as Chainlink), which needs to set proper, real and attainable parameters for the pools to be valid.
+これは、ユーザーがやり取りするプールコントラクト、プールコントラクトをデプロイおよびセットアップするデプロイメントファクトリ、およびコミュニティの忠実度の高いUXを作成する無料のバックエンドとフロントエンドで構成されます。
+- テストネット（オラクルシステムを含む）でビルド、テスト、起動するための推定時間：**12週間**
 
-This consists of pool contracts that the users interact with, the deployment factories that deploy & set up the pool contracts, and the complimentary back-end and front-end that creates a high fidelity UX for the community.
-- Estimated time to build, test and launch on the testnet (including the oracle system): **12 weeks**
+追加の外部監査により、メインネットでの立ち上げが約 **6週間** 延期されます。詳細については、監査とシミュレーションに関する4.2.2を参照してください。
 
-An additional external audit will push the launch on the mainnet by approximately **6 weeks.** More details in 4.2.2 on Audits & Simulations. 
+#### **スマートアルファボンド**
 
-#### **SMART Alpha Bonds**
+SMART Yield Bondsのモデルに従って、DAOはSMART AlphaBondsの設定とパラメーターを制御します。さらに、スマートコントラクトオラクルは、賭けた資産の価格、およびプール期間の開始時と終了時の価格を決定して、収益または損失を公平に分配するために重要になります。 
 
-Following the model of the SMART Yield Bonds, the DAO controls the setup and the parameters for SMART Alpha Bonds. Additionally the smart contract oracles will be critical in determining the price of the staked assets, as well as the price when the pool period starts and also when the period ends, to have a fair distribution of earnings or losses.  
+このDeFi製品は、ユーザーが対話する実際のプールコントラクト、プールコントラクトをデプロイおよびセットアップする特定のデプロイメントファクトリ、および無料のバックエンドとフロントエンドで構成されています。
+- 構築、テスト、リリースの推定時間：**20週間**
 
-This DeFi product is composed of the actual pool contracts the users interact with, specific deployment factories, which deploy and set up the pool contracts, and the complimentary back-end and front-end.
-- Estimated time to build, test and launch: **20 weeks**
+追加の外部監査により、メインネットでの立ち上げが約 **6週間** 延期されます。詳細については、監査とシミュレーションに関する4.2.2を参照してください。
 
-An additional external audit will push the launch on the mainnet by approximately **6 weeks.** More details in 4.2.2 on Audits & Simulations. 
+#### 4.2.1 スマートコントラクト
 
-#### 4.2.1 Smart Contracts
+完全に分散化されたシステムが必要なため、インフラストラクチャ全体はコミュニティ主導のDAOに基づいています。 DAOは、システムのコアコントラクトの所有者になり、コントラクトで実行できることを定義できるようになります。
 
-Because we want to have a completely decentralized system, our whole infrastructure is based around a community driven DAO. The DAO will be the owner of the core contracts of the system and will be able to define what the contracts are able to do.
+アーキテクチャはを使用しています[Diamond Standard (EIP-2535)](https://eips.ethereum.org/EIPS/eip-2535) これにより、スマートコントラクトで機能を追加、アップグレード、または削除できます。イーサリアムのスマートコントラクトは最大コントラクトサイズの24KBに制限されていますが、この標準を実装すると、この制限を回避できます。
 
-The architecture is using the [Diamond Standard (EIP-2535)](https://eips.ethereum.org/EIPS/eip-2535) which allows for smart contracts to add, upgrade or remove functionality. The Ethereum smart contracts are limited to 24KB of maximum contract size, however implementing this standard allows us to bypass this limitation.
+また、BarnBridge DAOは、変更する機能とその方法を選択できます。特定の機能が後で契約システムから無効になると約束した場合、その機能を具体的に説明していたバイトコードを削除できます。つまり、契約のその部分が将来再び有効になるリスクはありません。契約の特定の部分を削除できるため、契約システムから肥大化を取り除き、コミュニティが簡単に監査できるようにすると同時に、柔軟性を高めています。
 
-It also allows the BarnBridge DAO to choose what functionality to be changed and how. If we promise that a specific functionality will be later disabled from the contract system, we can remove the bytecode which was specifically describing that functionality. That means that there’s no risk of that part of the contract to be re-enabled in the future. Because we can remove specific parts of the contract, we remove the bloat from our contract system, making them easily auditable by the community, while having greater flexibility. 
+これは、技術スタックへの驚くべき追加であるだけでなく、イーサリアムエコスペースを推進するのにも役立ちます。このEIPは、プロトコルだけでなく、集約レベルのイーサリアムエコシステムにも多くの利点をもたらします。
 
-This will not only be an amazing addition to the tech stack but also would help push forward the Ethereum ecospace. This EIP brings many advantages, not only to our protocol, but the Ethereum ecosystem at the aggregate level.
-
-To keep the core philosophy of having a completely decentralized system, we will use a decentralized oracle system such as Chainlink. This will allow us to do off-chain computation that can be later used on-chain. This will be useful for, but not limited to, setting pool parameters such as the lending APY. Of course this off-chain system can be replaced and upgraded by the DAO.
+完全に分散化されたシステムを持つというコア哲学を維持するために、Chainlinkなどの分散化されたオラクルシステムを使用します。これにより、後でオンチェーンで使用できるオフチェーン計算を実行できるようになります。これは、貸し出しAPYなどのプールパラメータの設定に役立ちますが、これに限定されません。もちろん、このオフチェーンシステムはDAOによって置き換えられ、アップグレードされます。
 
 ![](images/image12.png)
 
-#### 4.2.2 Audit & Simulations
+#### 4.2.2 監査とシミュレーション
 
-To make sure our platform behaves as we expect it to, we will do multiple internal audits throughout the development cycle.  Our team has the capability to write secure code that behaves according to the specs. 
+プラットフォームが期待どおりに動作することを確認するために、開発サイクル全体で複数の内部監査を行います。私たちのチームには、仕様に従って動作する安全なコードを作成する機能があります。
 
-Additionally, to the internal audits, we will do external audits with top companies in this space.  External reviews are an absolute requirement as the development team is too close to the written code to look at it with fresh, new eyes & be critical of the design choices.  An external audit reveals inconsistencies between specifications and implementation, makes sure the documentation is updated, stresses the security model of the smart contract, and creates a better experience for the actors interacting with the contracts.
+また、内部監査については、この分野のトップ企業を対象に外部監査を実施します。開発チームは書かれたコードに近すぎて、新鮮で新しい目でそれを見ることができず、設計の選択に批判的であるため、外部レビューは絶対的な要件です。外部監査は、仕様と実装の間の不一致を明らかにし、ドキュメントが更新されていることを確認し、スマートコントラクトのセキュリティモデルを強調し、コントラクトと対話するアクターのエクスペリエンスを向上させます。
 
-On top of audits, we will also do agent simulations to model different scenarios and user behaviors, in order to visualize how the system evolves over time.  We can model different user strategies that interact with our system and fast forward time to see how the system’s properties change.
+監査に加えて、エージェントシミュレーションを実行して、さまざまなシナリオとユーザーの行動をモデル化し、システムが時間の経過とともにどのように進化するかを視覚化します。システムと相互作用するさまざまなユーザー戦略をモデル化し、時間を早送りして、システムのプロパティがどのように変化するかを確認できます。
 
-We will also do formal verification of core contract functionality.  Formal verification is an expensive and complex process but it provides additional security.  Core parts of the system will be modeled and formally verified by our team internally but also by external auditors.  It is important to make sure that we do this because the distribution, internal accounting, mathematical properties and specific variants keep our users safe.
+また、コア契約機能のフォーマル検証も行います。形式的検証は費用がかかり複雑なプロセスですが、セキュリティが強化されます。システムのコア部分は、社内のチームだけでなく外部の監査人によってもモデル化され、正式に検証されます。配布、内部アカウンティング、数学的プロパティ、および特定のバリアントによってユーザーの安全が確保されるため、これを確実に行うことが重要です。
 
-#### 4.3 Post-MVP 
+#### 4.3 ポストMVP 
 
-The post MVP, or the next release of the product will have the mainnet release as its highlight.  Protocol agnostic SMART Yield Bonds, and development and testing of the SMART Alpha product will mark the post MVP - and therefore complete the launch of the full featured BarnBridge protocol and products.  The SMART Yield product and liquidity mining will launch before the SMART Alpha product. 
+ポストMVP、または製品の次のリリースでは、メインネットリリースがハイライトになります。プロトコルにとらわれないSMARTYield Bonds、およびSMART Alpha製品の開発とテストは、ポストMVPをマークします。したがって、フル機能のBarnBridgeプロトコルと製品の発売が完了します。 SMART Yield製品と流動性マイニングは、SMARTAlpha製品の前に開始されます。 
 
-## 5 Future Work
+## 5 今後の作業
 
-#### 5.1.1 Gas Fees
+#### 5.1.1 ガス料金
 
-As multiple operations with different gas costs are necessary, these fees can add up pretty quickly. There are layer 2 solutions that would increase scalability and allow for complex operations and large numbers of transfers while simultaneously reducing associated costs. A potential solution that has already hit mainnet (looking at you Loopring) are zk rollups - which at a high level involve the bundling up transfers into a single transaction. Most of the computations are done off chain, and enforced through validity proofs. Moving the heavy lifting off-chain allows for much higher throughput, keeps costs lower, and - just as importantly - doesn’t sacrifice security. For an app that targets large numbers of active users, a solution aimed at scalability is the way to go. 
+ガスコストが異なる複数の操作が必要なため、これらの料金はすぐに加算される可能性があります。スケーラビリティを向上させ、複雑な操作と多数の転送を可能にすると同時に、関連するコストを削減するレイヤー2ソリューションがあります。すでにメインネットにヒットしている可能性のあるソリューション（Loopringを見て）は、zkロールアップです。これは、高レベルでは、転送を単一のトランザクションにバンドルすることを含みます。ほとんどの計算はオフチェーンで行われ、妥当性の証明を通じて実施されます。重労働をオフチェーンに移行することで、スループットが大幅に向上し、コストが低く抑えられます。また、同様に重要なことですが、セキュリティが犠牲になることもありません。多数のアクティブユーザーを対象とするアプリの場合、スケーラビリティを目的としたソリューションが最適です。
 
-#### 5.1.2 SMART Swaps - one loan broken into 4 instruments
+#### 5.1.2 SMARTスワップ-1つのローンが4つの商品に分割
 
-#### 5.1.3 SMART Prediction Hedge - Derivatives hedging fluctuations in prediction market odds.
+#### 5.1.3 SMART PredictionHedge-予測市場オッズの変動をヘッジするデリバティブ。
 
-#### 5.1.4 Market Driven Ratings Oracle - Trestle Point Index
+#### 5.1.4 市場主導の評価オラクル-トレッスルポイントインデックス
 
-Leveraging the wisdom of the crowd we can create an index that works as a ratings system providing an oracle mechanism that can be used by any platform in DeFi. A Moody’s for the decentralized future if you will. 
+群衆の叡智を活用して、DeFiの任意のプラットフォームで使用できるオラクルメカニズムを提供する評価システムとして機能するインデックスを作成できます。必要に応じて、分散型の未来のためのムーディーズ。
 
-The risk assessment framework used to rate the tranches could be used to determine market sentiment. Driven by the markets that form behind the tokenized tranches, the ratings that determine the tranche formation would become a ‘fear gauge’. In short, if the riskier tranches are more popular then it could offer an early sign that the underlying components are less risky. Similarly, if the usage of the lower yield, safer tranches see an increase in volume, this could be an early warning sign that a vulnerability was found and an attack is potentially imminent. 
+トランシェの評価に使用されるリスク評価フレームワークは、市場センチメントを決定するために使用できます。トークン化されたトランシェの背後に形成される市場によって推進され、トランシェの形成を決定する格付けは「恐怖のゲージ」になります。つまり、リスクの高いトランシェの人気が高い場合は、基礎となるコンポーネントのリスクが低いことを早期に示す可能性があります。同様に、より低い歩留まり、より安全なトランシェの使用でボリュームの増加が見られる場合、これは脆弱性が発見され、攻撃が差し迫っている可能性があることを示す早期の警告サインである可能性があります。 
 
-## 6. Team
+## 6. チーム
 
-### 6.1 Core Team
+### 6.1 コアチーム
 
-- **Troy Murray** - Troy runs RUDE_labs, a crypto centric artist company.  Troy has been exploring the many benefits that Blockchain can bring to media and artists since 2012 when he got bit by the Bitcoin bug and has been falling down the rabbit hole ever since.  Troy has worked in an around the Crypto space, devoting most of his time to Ethereum based projects.  Previously was working on SingularDTV/Breaker and snglsDAO trying to decentralize media and entertainment. Before that he was building a Title III equity crowd funding platform using Ethereum tokens in 2016.
-- **Tyler Ward** - Tyler runs Proof Systems, one of the largest marketing & UI/UX companies specializing in digital assets.  Tyler has worked with ConsenSys, Earn.com (who was acquired by Coinbase), FOAM, Dether, & Grid+, Centrality, Sylo (a decentralized messaging dApp with 300k users in NZ), NEAR Protocol, DARMA Capital, SingularDTV & the snglsDAO.  He started working in crypto in late 2016 & has bought and sold numerous ecommerce companies. 
+- **Troy Murray** - Troy runs RUDE_labs、暗号中心のアーティスト会社。トロイは、ビットコインのバグに噛まれて以来、ブロックチェーンがメディアやアーティストにもたらすことができる多くのメリットを探求してきました。トロイは暗号空間の周りで働いており、ほとんどの時間をイーサリアムベースのプロジェクトに費やしています。以前は、メディアとエンターテインメントを分散化しようとして、SingularDTV / BreakerとsnglsDAOに取り組んでいました。それ以前は、2016年にイーサリアムトークンを使用してタイトルIIIのエクイティクラウドファンディングプラットフォームを構築していました。
 
-***Digital MOB - DigitalMob, a software development company experienced in building complex blockchain products, is taking the technical role in the product with 
-an extensive team of web3 developers, web and mobile developers, system architects, security experts and analysts.***
+- **Tyler Ward** - Tyler デジタル資産を専門とする最大のマーケティングおよびUI / UX企業の1つであるProofSystemsを運営しています。 Tylerは、ConsenSys、Earn.com（Coinbaseに買収）、FOAM、Dether、およびGrid +、Centrality、Sylo（NZに30万人のユーザーがいる分散型メッセージングdApp）、NEARプロトコル、DARMA Capital、SingularDTV、およびsnglsDAOと協力してきました。彼は2016年後半に暗号通貨で働き始め、数多くのeコマース企業を売買してきました。
+***Digital MOB-複雑なブロックチェーン製品の構築に経験のあるソフトウェア開発会社であるDigitalMobは、製品の技術的役割を担っています。
+web3開発者、Webおよびモバイル開発者、システムアーキテクト、セキュリティエキスパート、およびアナリストの広範なチーム。***
 
-- **Milad Mostavi** - Milad co-founded and runs DigitalMOB. He is a seasoned software architect and in the past 5 years has worked with ConsenSys on a dozen of different projects. His contribution was decisive in successfully launching SingularDTV and Gnosis and orchestrated the development of SingularDTV’s entertainment decentralised ecosystem.
-- **Bogdan Gheorghe** - Bogdan considers himself a DeFi nerd - with a background in mathematics and data science, he spent the past 2 years at Alethio doing data analysis on blockchain data, using and researching almost all DeFi protocols in order to put a DeFi flavor to the Alethio product suite. Having also worked on development and sales for the Codefi DeFi data API, he was in contact with all of the major protocol teams. Now he is part of Digital MOB taking the product owner responsibility to build DeFi products.
-- **Dragos Rizescu** - Dragos is responsible for product development at Digital MOB. His background is full stack developer with a passion for building highly scalable user interfaces. In the past 5 years Dragos has been at the forefront of web3 technologies. He co-founded Treum.io, a blockchain supply chain solution that brings transparency, traceability and tradability to highly valuable physical assets. As a developer, he was part of the core team to launch projects such as Gnosis and SingularDTV and has advised and supported multiple projects in the ecosystem, most notably Alethio. He worked with ConsenSys to support the enterprise arm of the company, being part of the development team to deliver the first non-financial Ethereum use case, a track and trace solution of rock samples for BHP and a solution for decentralized energy markets with BP. 
+- **Milad Mostavi** - Miladは、DigitalMOBを共同設立し、運営しています。彼はベテランのソフトウェアアーキテクトであり、過去5年間、ConsenSysと協力してさまざまなプロジェクトに取り組んできました。彼の貢献は、SingularDTVとGnosisの立ち上げを成功させる上で決定的であり、SingularDTVのエンターテインメント分散型エコシステムの開発を調整しました。
 
-### 6.2 Advisors/Technology Partners
+- **Bogdan Gheorghe** - ボグダンは自分自身をDeFiオタクだと考えています-数学とデータサイエンスのバックグラウンドを持ち、過去2年間、Alethioでブロックチェーンデータのデータ分析を行い、ほぼすべてのDeFiプロトコルを使用して調査し、Alethio製品スイートにDeFiフレーバーを追加しました。 。 Codefi DeFiデータAPIの開発と販売にも携わった後、彼はすべての主要なプロトコルチームと連絡を取りました。現在、彼はDigital MOBの一員であり、製品所有者の責任でDeFi製品を構築しています。
+- **Dragos Rizescu** - Dragosは、DigitalMOBの製品開発を担当しています。彼の経歴は、高度にスケーラブルなユーザーインターフェイスの構築に情熱を注ぐフルスタック開発者です。過去5年間、Dragosはweb3テクノロジーの最前線に立ってきました。彼は、非常に価値のある物理的資産に透明性、トレーサビリティ、および取引可能性をもたらすブロックチェーンサプライチェーンソリューションであるTreum.ioを共同設立しました。開発者として、彼はGnosisやSingularDTVなどのプロジェクトを立ち上げるコアチームの一員であり、エコシステム内の複数のプロジェクト、特にAlethioにアドバイスとサポートを提供してきました。彼はConsenSysと協力して、会社のエンタープライズ部門をサポートし、開発チームの一員として、最初の非金融イーサリアムユースケース、BHPの岩石サンプルの追跡および追跡ソリューション、およびBPを使用した分散型エネルギー市場のソリューションを提供しました。 
 
-- **Aaron McDonald** - Co-Founder and CEO Aaron is a 20 year tech industry veteran with experience leading teams across all aspects of a technology company managing portfolios over $1b in value. Aaron founded Centrality a leading $100m global venture studio supports a venture portfolio leveraging decentralised technology to create new market innovation and customer experiences. Aaron is a board member or advisor to more than a dozen venture companies around the world. In 2018 Aaron was awarded EY Entrepreneur of the Year for the technology and emerging industries category. 
-- **aptar** - the company behind ACTUS protocol -- whose goal is to provide the Ethereum community and the TradFi world with the tools necessary for fulfilling the vision of an open, interoperable and frictionless financial ecosystem. At its core, the ACTUS Protocol leverages the Algorithmic Contract Types Unified Standard (ACTUS) which is a formal representation of all kinds of financial contract types in terms of their financial obligations.
+### 6.2 アドバイザー/テクノロジーパートナー
 
-## 6.3 Development Team
-- 1 Project Lead 
-- 1 Software Architect, QA & DevOps
-- 2 Solidity developers
-- 2 Front end developers
-- 1 Back end developer
+- **Aaron McDonald** - 共同創設者兼CEOのアーロンは20年のテクノロジー業界のベテランであり、10億ドルを超える価値のポートフォリオを管理するテクノロジー企業のあらゆる側面でチームを率いる経験があります。アーロンはCentralityを設立し、1億ドルをリードするグローバルベンチャースタジオが、分散型テクノロジーを活用して新しい市場の革新と顧客体験を生み出すベンチャーポートフォリオをサポートしています。アーロンは、世界中の12を超えるベンチャー企業の取締役または顧問です。 2018年、アーロンはテクノロジーおよび新興産業のカテゴリーでEY Entrepreneur of theYearを受賞しました。
+
+- **aptar** - ACTUSプロトコルの背後にある会社-その目標は、オープンで相互運用可能で摩擦のない金融エコシステムのビジョンを実現するために必要なツールをイーサリアムコミュニティとTradFiの世界に提供することです。 ACTUSプロトコルは、その中核として、あらゆる種類の金融契約タイプを金融債務の観点から正式に表現したアルゴリズム契約タイプ統一標準（ACTUS）を活用しています。
+
+## 6.3 開発チーム
+- 1 プロジェクトリーダー
+- 1 ソフトウェアアーキテクト、QAおよびDevOps
+- 2 Solidity開発者
+- 2 フロントエンド開発者
+- 1 バックエンド開発者
