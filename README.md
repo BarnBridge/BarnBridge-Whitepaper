@@ -243,7 +243,7 @@ an extensive team of web3 developers, web and mobile developers, system architec
 ### 6.2 Advisors/Technology Partners
 
 - **Aaron McDonald** - Co-Founder and CEO Aaron is a 20 year tech industry veteran with experience leading teams across all aspects of a technology company managing portfolios over $1b in value. Aaron founded Centrality a leading $100m global venture studio supports a venture portfolio leveraging decentralised technology to create new market innovation and customer experiences. Aaron is a board member or advisor to more than a dozen venture companies around the world. In 2018 Aaron was awarded EY Entrepreneur of the Year for the technology and emerging industries category. 
-- **aptar** - the company behind ACTUS protocol -- whose goal is to provide the Ethereum community and the TradFi world with the tools necessary for fulfilling the vision of an open, interoperable and frictionless financial ecosystem. At its core, the ACTUS Protocol leverages the Algorithmic Contract Types Unified Standard (ACTUS) which is a formal representation of all kinds of financial contract types in terms of their financial obligations.
+- **Atpar** - the company behind ACTUS protocol -- whose goal is to provide the Ethereum community and the TradFi world with the tools necessary for fulfilling the vision of an open, interoperable and frictionless financial ecosystem. At its core, the ACTUS Protocol leverages the Algorithmic Contract Types Unified Standard (ACTUS) which is a formal representation of all kinds of financial contract types in terms of their financial obligations.
 
 ## 6.3 Development Team
 - 1 Project Lead 
