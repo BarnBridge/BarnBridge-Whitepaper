@@ -33,10 +33,10 @@ BarnBridge itself does not lend money directly off of its platform. Rather, pool
 A user can buy exposure to the most senior tranche of a given derivative, for example, and get a lower-than-market yield but have it be fixed. SMART Yield bonds are thus a way to buy and sell risk on yield with pricing driven purely by the market.
 
 ### Scenario 1
-![](images/scenario1.png =645x600)
+<img src="images/scenario1.png" width="645" height="600">
 
 ### Scenario 2
-![](images/scenario2.png =645x600)
+<img src="images/scenario2.png" width="645" height="600">
 
 Its second application, **SMART Alpha**, will offer market price exposure risk mitigation via tranched volatility derivatives.  That is to say, it will allow users to select from various levels of price exposure. The idea is that every tranche of price exposure does not need to experience the same upside or downside volatility with a given move in the price of the underlying asset.
 
